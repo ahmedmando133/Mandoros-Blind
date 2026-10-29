@@ -1447,3 +1447,184 @@ footer {
     padding: 16px;
   }
 }
+
+/* ====================================================================
+ * 3-MODE DUAL-UPLOAD BANNER & 14-SHEET WORKBOOK INSPECTOR STYLES
+ * ==================================================================== */
+.mandoros-workflow-banner {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 18px;
+}
+
+.banner-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.upload-modes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mode-pill {
+  background: rgba(11, 12, 18, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 14px 16px;
+  transition: var(--transition);
+}
+
+.mode-pill.recommended {
+  background: linear-gradient(145deg, rgba(0, 245, 212, 0.1), rgba(11, 12, 18, 0.85));
+  border-color: rgba(0, 245, 212, 0.4);
+  box-shadow: 0 4px 18px rgba(0, 245, 212, 0.1);
+}
+
+.mode-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  padding: 3px 8px;
+  border-radius: 99px;
+  margin-bottom: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+}
+
+.mode-pill.recommended .mode-badge {
+  background: rgba(0, 245, 212, 0.2);
+  color: var(--cyan-neon);
+  border: 1px solid rgba(0, 245, 212, 0.4);
+}
+
+.mode-pill h4 {
+  margin: 0 0 6px;
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.mode-pill p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.slot-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  padding: 3px 9px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.slot-mandoros-link {
+  color: var(--cyan-neon);
+  font-weight: 700;
+  text-decoration: underline;
+  position: relative;
+  z-index: 3;
+}
+
+.slot-mandoros-link:hover {
+  color: #FFFFFF;
+}
+
+.active-mode-indicator {
+  margin-left: auto;
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: 10px;
+  background: rgba(0, 245, 212, 0.1);
+  border: 1px solid rgba(0, 245, 212, 0.28);
+  color: var(--cyan-neon);
+  text-transform: none;
+  letter-spacing: 0.2px;
+}
+
+.upload-actions-row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.upload-actions-row .btn-primary {
+  flex: 1;
+}
+
+.btn-clear-files {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  border-radius: var(--radius-md);
+  padding: 0 16px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-clear-files:hover {
+  border-color: rgba(239, 68, 68, 0.45);
+  color: #F87171;
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.workbook-inspector-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: rgba(15, 118, 110, 0.14);
+  border: 1px solid rgba(0, 245, 212, 0.3);
+  border-radius: 12px;
+  padding: 12px 18px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.workbook-inspector-banner strong {
+  color: var(--cyan-neon);
+}
+
+.workbook-section-row td {
+  background: #0F766E !important;
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.4px;
+  font-size: 12px;
+  padding: 9px 14px !important;
+}
+
+.workbook-header-row td, .workbook-header-row th {
+  background: #17324D !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+@media (max-width: 960px) {
+  .upload-modes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
