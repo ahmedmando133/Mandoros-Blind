@@ -1,0 +1,13 @@
+[project]
+name = "mandros-blind"
+version = "0.1.0"
+description = "Local, source-grounded audit and repair pipeline for RCT extraction workbooks"
+requires-python = ">=3.11"
+dependencies = ["pypdf>=5.0,<7", "openpyxl>=3.1,<4"]
+
+[project.scripts]
+mandros-blind = "app.cli:main"
+
+[tool.setuptools]
+packages = ["app"]
+

@@ -1,0 +1,172 @@
+{
+  "registry_version": "1.0.0",
+  "created_utc": "2026-10-21T22:51:12+00:00",
+  "updated_utc": "2026-10-29T12:00:12+00:00",
+  "jobs": {
+    "metformin-992be36008c8": {
+      "study_id": "metformin",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\metformin\\source.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\metformin\\mandros_input.xlsx",
+      "input_hashes": {
+        "pdf": "3d2fd2eeada56df3ba6f3d03fbdd8e1805b11b2c1491c322d79b4f0ce5b324b7",
+        "workbook": "94981596d5ce67fea0e65848ec3e655530bb86a2571fe1666bc48e215017263c"
+      },
+      "input_fingerprint": "c4bf7921654335fcf84654c02706c0c6b3d8d830df42b4d1363d9c97a0cb96d6",
+      "status": "success",
+      "recognized_fixture": "metformin-dppos-dc11-1299",
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8",
+      "last_processed_utc": "2026-10-29T11:32:05+00:00",
+      "registered_from": "incremental runner"
+    },
+    "orlistat-rct-2024-34aa622cbc7d": {
+      "study_id": "orlistat-rct-2024",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\orlistat\\source.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\orlistat\\mandros_input.xlsx",
+      "input_hashes": {
+        "pdf": "908c285c12b52e46a2bce1aea0f669a283006fecb12cd4a231d76ad57054f14e",
+        "workbook": "cce880771be33158bdec7748ea22705e9509c43b728f7cf7267fe3b1232ccc58"
+      },
+      "input_fingerprint": "fac78adfb210af84fae33fdf736556ecfe0d4a532f0f0d1600055601a037ba43",
+      "status": "success",
+      "recognized_fixture": null,
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d",
+      "last_processed_utc": "2026-10-29T11:55:49+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae": {
+      "study_id": "private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin\\empa vs placebo 2doses (RCT4).pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin\\empa_vs_placebo_2doses__RCT4_extracted (7).xlsx",
+      "input_hashes": {
+        "pdf": "b81459f7aea35817500e11737bd890c81f0902a875122e700658aa70438b7cdb",
+        "workbook": "ea7342cfe38d83db9ff4d459ec369414b82f7643f38172f9064f3726ff1133df"
+      },
+      "input_fingerprint": "94c8bd1dc2c20fffb2296039f17a0d5be99ab4695167c48b1438487bc674a813",
+      "status": "success",
+      "recognized_fixture": null,
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae",
+      "last_processed_utc": "2026-10-29T11:58:36+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-dapagliflozin-trial-dabagliflozin_rct1_extracted-e116a73bda5e": {
+      "study_id": "private-dapagliflozin-trial-dabagliflozin_rct1_extracted",
+      "pdf": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\dabagliflozin RCT1.pdf",
+      "workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\dabagliflozin_RCT1_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "ea0dca06eb7a9ddbe6168fded072af779f984fe30202087bfb9e33b5dbec7367",
+        "workbook": "9a7ac59d2fdd7b2207ca79472cbc5b5057d3639d6838e5369eda9d95b3639e0d"
+      },
+      "input_fingerprint": "ebf2955008fd853f613f363dcbfed63cdcadf9abe6215e28344eb808036d9eea",
+      "status": "success",
+      "recognized_fixture": "dapagliflozin-monotherapy-dc10-0612-v1",
+      "output_dir": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-dabagliflozin_rct1_extracted-e116a73bda5e",
+      "last_processed_utc": "2026-10-24T14:08:58+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-dapagliflozin-trial-dabagliflozin_extracted-c406e7e36c9c": {
+      "study_id": "private-dapagliflozin-trial-dabagliflozin_extracted",
+      "pdf": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\dabagliflozin RCT1.pdf",
+      "workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\Dabagliflozin_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "ea0dca06eb7a9ddbe6168fded072af779f984fe30202087bfb9e33b5dbec7367",
+        "workbook": "25c791b3d52aa974a7c77a3e490d0519f3831f26f76f77f21de77066d3a7a97d"
+      },
+      "input_fingerprint": "a38cec5f0c5ed66da66e00fa5240f9710a1404b53990ff66ee426379fa183cc1",
+      "status": "success",
+      "recognized_fixture": "dapagliflozin-monotherapy-dc10-0612-v1",
+      "output_dir": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-dabagliflozin_extracted-c406e7e36c9c",
+      "last_processed_utc": "2026-10-24T18:42:04+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6": {
+      "study_id": "private-dapagliflozin-trial-daba-dm_extracted",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\dabagliflozin RCT1.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\daba DM_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "f9b654de9369fd59c77e932e3ba891878b5ccbf3f9be6f427b10eab904ec9333",
+        "workbook": "df3a610c8ba0fd3296c7894ae54cbc6c44ee633c126c753a8ed51c339a433061"
+      },
+      "input_fingerprint": "698c2c76633979df15656470ab2c3ff7863f47c898eddd77a9023310190a533a",
+      "status": "success",
+      "recognized_fixture": "dapagliflozin-monotherapy-dc10-0612-v1",
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6",
+      "last_processed_utc": "2026-10-29T11:57:39+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-semaglutide-obesity-trial-semaglutide_obesity_without_dm_extracted-4d4c3460ad4a": {
+      "study_id": "private-semaglutide-obesity-trial-semaglutide_obesity_without_dm_extracted",
+      "pdf": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide Obesity without DM.pdf",
+      "workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide_Obesity_without_DM_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "7f08887b3a922dc03f1acc5ed448818355faa91299efe476830e70764fd9ec79",
+        "workbook": "de49201f36f5e527715e29441e16c4da1a4a41160ff40445a60deb33baa3f5e2"
+      },
+      "input_fingerprint": "070fc88eed6f4751fcfad79ddcaafc844f28a1508edfa7835c49720f72a06e92",
+      "status": "success",
+      "recognized_fixture": null,
+      "output_dir": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide_obesity_without_dm_extracted-4d4c3460ad4a",
+      "last_processed_utc": "2026-10-26T22:51:38+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082": {
+      "study_id": "private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide Obesity without DM.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide Obesity without DM_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "7f08887b3a922dc03f1acc5ed448818355faa91299efe476830e70764fd9ec79",
+        "workbook": "6b5939e65b4e21a26755bdb30fe6be29b399f386e7a8ed542d064f24094c59aa"
+      },
+      "input_fingerprint": "8c995bc164f5961e4487569aa5cd7c5024063fc627c2377900f7b9de197aba7d",
+      "status": "success",
+      "recognized_fixture": "select-semaglutide-nejm-2023-v1",
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082",
+      "last_processed_utc": "2026-10-29T11:56:41+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-simvastatin-simvastatin_extracted-81abce43466b": {
+      "study_id": "private-simvastatin-simvastatin_extracted",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\simvastatin\\simvastatin.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\simvastatin\\simvastatin_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "09085b3d1e12f04804a5aa4168d7a41fff137d5245a318a44b0e973dd4dd0b3e",
+        "workbook": "ddaaec0774c831d111d59d30078f87431c5c0cc9594b0990cf199b6632347672"
+      },
+      "input_fingerprint": "0133a1b61240ecd4500077323b1225debed39ccf79a4779ed223e7e87c892191",
+      "status": "success",
+      "recognized_fixture": "simvastatin-phase1-statistical-integrity-v1",
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b",
+      "last_processed_utc": "2026-10-29T12:00:12+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3": {
+      "study_id": "private-empagliflozin-2-empa-vs-placebo_extracted",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "67a914ced6084afd7ab2ccb7d82bb07f682bbfa4f73ba11a59e99b7483413683",
+        "workbook": "3b7255939245d4c775f6310b0d63a301c286e75b2bebaa1889d22bfabd644ddf"
+      },
+      "input_fingerprint": "73faa8dda1cc104f216da92f118008f9777e56750be8eb193495be5d8352cd39",
+      "status": "success",
+      "recognized_fixture": "empagliflozin-basal-dom-2015-v1",
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3",
+      "last_processed_utc": "2026-10-29T11:59:38+00:00",
+      "registered_from": "incremental runner"
+    },
+    "private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted-ad7cbe59c74a": {
+      "study_id": "private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empa plus met\\empa vs placebo add on metformin (RCT3).pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empa plus met\\empa vs placebo add on metformin (RCT3)_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "d822364a327b18ab11ab349a139a520bfde0d7dcd30250f8fab5f910a52ce967",
+        "workbook": "8ca93e24234199ce557d267fdcde0ea31269424a547b5ab5e0aa6c616149e593"
+      },
+      "input_fingerprint": "14a08423232bfbb1ea441d7de3fff6de8bf0480a9506862854c476a38541da2d",
+      "status": "success",
+      "recognized_fixture": null,
+      "output_dir": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted-ad7cbe59c74a",
+      "last_processed_utc": "2026-10-29T11:58:02+00:00",
+      "registered_from": "incremental runner"
+    }
+  }
+}

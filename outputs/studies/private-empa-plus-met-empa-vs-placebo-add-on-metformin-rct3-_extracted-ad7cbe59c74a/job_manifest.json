@@ -1,0 +1,40 @@
+{
+  "study_id": "private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted",
+  "discovery_source": "recursive discovery",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empa plus met\\empa vs placebo add on metformin (RCT3).pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empa plus met\\empa vs placebo add on metformin (RCT3)_extracted.xlsx",
+  "input_hashes": {
+    "pdf": "d822364a327b18ab11ab349a139a520bfde0d7dcd30250f8fab5f910a52ce967",
+    "workbook": "8ca93e24234199ce557d267fdcde0ea31269424a547b5ab5e0aa6c616149e593"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:57:39+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted-ad7cbe59c74a\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted-ad7cbe59c74a\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted-ad7cbe59c74a\\empa-vs-placebo-add-on-metformin-rct3-_extracted_corrected.xlsx"
+  },
+  "decision": "MANUAL_REVIEW",
+  "score": 0,
+  "issue_count": 8,
+  "blocking_issue_count": 0,
+  "recognized_fixture": null,
+  "correction": {
+    "status": "generated",
+    "mode": "generic_pdf_mandros",
+    "dataset": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted-ad7cbe59c74a\\generic_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empa-plus-met-empa-vs-placebo-add-on-metformin-rct3-_extracted-ad7cbe59c74a\\empa-vs-placebo-add-on-metformin-rct3-_extracted_corrected.xlsx",
+    "sha256": "af4fa16e24ccf36f22e731675cdd6f9804239d9d913a50b72a506a663dec43d3",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "manual_workbook_used": false,
+    "builder_exit_code": 0,
+    "builder_warning": null
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T11:58:02+00:00"
+}

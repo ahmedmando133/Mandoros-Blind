@@ -1,0 +1,1687 @@
+{
+  "system": "Mandros Blind",
+  "version": "0.1.0",
+  "source_sha256": "7f08887b3a922dc03f1acc5ed448818355faa91299efe476830e70764fd9ec79",
+  "input_workbook_sha256": "6b5939e65b4e21a26755bdb30fe6be29b399f386e7a8ed542d064f24094c59aa",
+  "recognized_fixture": "select-semaglutide-nejm-2023-v1",
+  "decision": "REJECT",
+  "score": 0,
+  "score_max": 100,
+  "domain_scores": {
+    "numerical_accuracy": 0,
+    "statistical_interpretation": 0,
+    "pico_eligibility": 0,
+    "outcome_completeness": 0,
+    "duplication_integrity": 0,
+    "structure_traceability": 0
+  },
+  "blocking_issue_count": 98,
+  "issue_count": 166,
+  "issues": [
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 4,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 5,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 6,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 7,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 8,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 9,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 10,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 11,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 12,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 13,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 14,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 15,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 16,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 17,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 26,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 27,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 28,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 29,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 32,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 33,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 34,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 35,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 36,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 37,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 38,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 39,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 40,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 41,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 62,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 62,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 63,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 64,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 65,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 66,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 67,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 68,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 69,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 70,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 71,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 72,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 73,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 74,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 75,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 76,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 77,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 78,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 79,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 80,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 81,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 82,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 83,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 84,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 85,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 86,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 87,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 88,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 89,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 90,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 91,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 92,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 93,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 120,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 120,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 121,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 122,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 122,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 123,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 124,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 125,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 126,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 127,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 128,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 128,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 129,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 130,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 131,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 132,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 133,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 134,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 134,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 135,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 136,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 136,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 137,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 138,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 139,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 140,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 140,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 141,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 142,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 142,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 143,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 144,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 145,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 146,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 147,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 148,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 149,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 150,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 151,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 152,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 153,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 154,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 155,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 156,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 157,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 2,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 3,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 4,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 5,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 6,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 7,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 8,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 9,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 10,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 11,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 12,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 13,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 14,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 15,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 16,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 17,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 18,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 19,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 20,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 21,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 22,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 23,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 24,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 25,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 26,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 27,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 28,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 29,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 30,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 31,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 32,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 33,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 34,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 35,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 36,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 37,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 38,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 39,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 40,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 41,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 42,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 43,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 44,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 45,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 46,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 47,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 48,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 49,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 50,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 51,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 52,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 53,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 54,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 55,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 56,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 57,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 58,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 59,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 60,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 61,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    }
+  ],
+  "limitations": [
+    "A structural pass is not proof of scientific correctness.",
+    "For an unseen trial, scientific correction requires a source-grounded truth bundle or independent human/AI adjudication.",
+    "PRISMA compliance is assessed at systematic-review level, not as a property of a single RCT extraction."
+  ]
+}

@@ -1,0 +1,4057 @@
+{
+  "validator": "source_based_numerical_completeness_v1",
+  "inventory_independent_of_excel": true,
+  "inventory_scope": "complete supplied main article: Tables 1-4, Figure 1 printed labels, footnotes, and quantified Results text",
+  "expected_finding_count": 311,
+  "status_counts": {
+    "NOT_REPORTED_IN_SOURCE": 1,
+    "VERIFIED": 310
+  },
+  "unresolved_count": 0,
+  "complete_and_verified": true,
+  "claim": "100% verified",
+  "findings": [
+    {
+      "inventory_id": "INV_BASE_AGE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_AGE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_AGE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_AGE_ARM_PLACEBO",
+      "finding_key": "BASE_AGE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_AGE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_BODY_WEIGHT_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_BODY_WEIGHT_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_BODY_WEIGHT_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_BODY_WEIGHT_ARM_PLACEBO",
+      "finding_key": "BASE_BODY_WEIGHT_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_BODY_WEIGHT_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_BMI_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_BMI_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_BMI_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_BMI_ARM_PLACEBO",
+      "finding_key": "BASE_BMI_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_BMI_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_WAIST_CIRCUMFERENCE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_WAIST_CIRCUMFERENCE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_WAIST_CIRCUMFERENCE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_WAIST_CIRCUMFERENCE_ARM_PLACEBO",
+      "finding_key": "BASE_WAIST_CIRCUMFERENCE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_WAIST_CIRCUMFERENCE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HBA1C_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_HBA1C_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HBA1C_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HBA1C_ARM_PLACEBO",
+      "finding_key": "BASE_HBA1C_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HBA1C_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_EGFR_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_EGFR_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_EGFR_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_EGFR_ARM_PLACEBO",
+      "finding_key": "BASE_EGFR_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_EGFR_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_SYSTOLIC_BLOOD_PRESSURE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_SYSTOLIC_BLOOD_PRESSURE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_SYSTOLIC_BLOOD_PRESSURE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_SYSTOLIC_BLOOD_PRESSURE_ARM_PLACEBO",
+      "finding_key": "BASE_SYSTOLIC_BLOOD_PRESSURE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_SYSTOLIC_BLOOD_PRESSURE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_DIASTOLIC_BLOOD_PRESSURE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_DIASTOLIC_BLOOD_PRESSURE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_DIASTOLIC_BLOOD_PRESSURE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_DIASTOLIC_BLOOD_PRESSURE_ARM_PLACEBO",
+      "finding_key": "BASE_DIASTOLIC_BLOOD_PRESSURE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_DIASTOLIC_BLOOD_PRESSURE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_PULSE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_PULSE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_PULSE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_PULSE_ARM_PLACEBO",
+      "finding_key": "BASE_PULSE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_PULSE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_EQ-5D-5L_INDEX_SCORE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_EQ-5D-5L_INDEX_SCORE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_EQ-5D-5L_INDEX_SCORE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_EQ-5D-5L_INDEX_SCORE_ARM_PLACEBO",
+      "finding_key": "BASE_EQ-5D-5L_INDEX_SCORE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_EQ-5D-5L_INDEX_SCORE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_EQ-5D-VAS_SCORE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_EQ-5D-VAS_SCORE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_EQ-5D-VAS_SCORE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_EQ-5D-VAS_SCORE_ARM_PLACEBO",
+      "finding_key": "BASE_EQ-5D-VAS_SCORE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_EQ-5D-VAS_SCORE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_SEX_MALE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_SEX_MALE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_SEX_MALE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_SEX_MALE_ARM_PLACEBO",
+      "finding_key": "BASE_SEX_MALE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_SEX_MALE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_SEX_FEMALE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_SEX_FEMALE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "transparent derivation from published arm total and male n (%)",
+      "expected_components": "exact derived complement with derivation label",
+      "extraction_ids": [
+        "BASE_SEX_FEMALE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "derived_from_published_main_article_values",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_SEX_FEMALE_ARM_PLACEBO",
+      "finding_key": "BASE_SEX_FEMALE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "transparent derivation from published arm total and male n (%)",
+      "expected_components": "exact derived complement with derivation label",
+      "extraction_ids": [
+        "BASE_SEX_FEMALE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "derived_from_published_main_article_values",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_WHITE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_RACE_WHITE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_WHITE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_WHITE_ARM_PLACEBO",
+      "finding_key": "BASE_RACE_WHITE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_WHITE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_ASIAN_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_RACE_ASIAN_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_ASIAN_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_ASIAN_ARM_PLACEBO",
+      "finding_key": "BASE_RACE_ASIAN_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_ASIAN_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_BLACK_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_RACE_BLACK_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_BLACK_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_BLACK_ARM_PLACEBO",
+      "finding_key": "BASE_RACE_BLACK_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_BLACK_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_OTHER_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_RACE_OTHER_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_OTHER_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_OTHER_ARM_PLACEBO",
+      "finding_key": "BASE_RACE_OTHER_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_OTHER_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_NOT_REPORTED_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_RACE_NOT_REPORTED_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_NOT_REPORTED_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_RACE_NOT_REPORTED_ARM_PLACEBO",
+      "finding_key": "BASE_RACE_NOT_REPORTED_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_RACE_NOT_REPORTED_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_ETHNICITY_HISPANIC_OR_LATINO_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_ETHNICITY_HISPANIC_OR_LATINO_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_ETHNICITY_HISPANIC_OR_LATINO_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_ETHNICITY_HISPANIC_OR_LATINO_ARM_PLACEBO",
+      "finding_key": "BASE_ETHNICITY_HISPANIC_OR_LATINO_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_ETHNICITY_HISPANIC_OR_LATINO_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_ETHNICITY_MISSING_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_ETHNICITY_MISSING_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_ETHNICITY_MISSING_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_ETHNICITY_MISSING_ARM_PLACEBO",
+      "finding_key": "BASE_ETHNICITY_MISSING_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_ETHNICITY_MISSING_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_MYOCARDIAL_INFARCTION_ONLY_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_MYOCARDIAL_INFARCTION_ONLY_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_MYOCARDIAL_INFARCTION_ONLY_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_MYOCARDIAL_INFARCTION_ONLY_ARM_PLACEBO",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_MYOCARDIAL_INFARCTION_ONLY_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_MYOCARDIAL_INFARCTION_ONLY_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_STROKE_ONLY_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_STROKE_ONLY_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_STROKE_ONLY_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_STROKE_ONLY_ARM_PLACEBO",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_STROKE_ONLY_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_STROKE_ONLY_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_PERIPHERAL_ARTERY_DISEASE_ONLY_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_PERIPHERAL_ARTERY_DISEASE_ONLY_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_PERIPHERAL_ARTERY_DISEASE_ONLY_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_PERIPHERAL_ARTERY_DISEASE_ONLY_ARM_PLACEBO",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_PERIPHERAL_ARTERY_DISEASE_ONLY_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_PERIPHERAL_ARTERY_DISEASE_ONLY_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_TWO_OR_MORE_CRITERIA_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_TWO_OR_MORE_CRITERIA_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_TWO_OR_MORE_CRITERIA_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_TWO_OR_MORE_CRITERIA_ARM_PLACEBO",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_TWO_OR_MORE_CRITERIA_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_TWO_OR_MORE_CRITERIA_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_OTHER_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_OTHER_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_OTHER_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_CARDIOVASCULAR_INCLUSION_CRITERION_OTHER_ARM_PLACEBO",
+      "finding_key": "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_OTHER_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_CARDIOVASCULAR_INCLUSION_CRITERION_OTHER_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HBA1C_LT_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_HBA1C_LT_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HBA1C_LT_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HBA1C_LT_ARM_PLACEBO",
+      "finding_key": "BASE_HBA1C_LT_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HBA1C_LT_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HBA1C_GE_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_HBA1C_GE_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HBA1C_GE_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HBA1C_GE_ARM_PLACEBO",
+      "finding_key": "BASE_HBA1C_GE_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HBA1C_GE_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HIGH_SENSITIVITY_C_REACTIVE_PROTEIN_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_HIGH_SENSITIVITY_C_REACTIVE_PROTEIN_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HIGH_SENSITIVITY_C_REACTIVE_PROTEIN_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HIGH_SENSITIVITY_C_REACTIVE_PROTEIN_ARM_PLACEBO",
+      "finding_key": "BASE_HIGH_SENSITIVITY_C_REACTIVE_PROTEIN_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HIGH_SENSITIVITY_C_REACTIVE_PROTEIN_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_TOTAL_CHOLESTEROL_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_TOTAL_CHOLESTEROL_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_TOTAL_CHOLESTEROL_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_TOTAL_CHOLESTEROL_ARM_PLACEBO",
+      "finding_key": "BASE_TOTAL_CHOLESTEROL_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_TOTAL_CHOLESTEROL_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HDL_CHOLESTEROL_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_HDL_CHOLESTEROL_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HDL_CHOLESTEROL_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_HDL_CHOLESTEROL_ARM_PLACEBO",
+      "finding_key": "BASE_HDL_CHOLESTEROL_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_HDL_CHOLESTEROL_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_LDL_CHOLESTEROL_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_LDL_CHOLESTEROL_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_LDL_CHOLESTEROL_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_LDL_CHOLESTEROL_ARM_PLACEBO",
+      "finding_key": "BASE_LDL_CHOLESTEROL_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_LDL_CHOLESTEROL_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_TRIGLYCERIDES_ARM_SEMAGLUTIDE",
+      "finding_key": "BASE_TRIGLYCERIDES_ARM_SEMAGLUTIDE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_TRIGLYCERIDES_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_BASE_TRIGLYCERIDES_ARM_PLACEBO",
+      "finding_key": "BASE_TRIGLYCERIDES_ARM_PLACEBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "BASE_TRIGLYCERIDES_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_01_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_01_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_01_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_01_ARM_PLACEBO",
+      "finding_key": "EFF_T2_01_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_01_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_01_HR",
+      "finding_key": "EFF_T2_01_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_01_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_02_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_02_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_02_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_02_ARM_PLACEBO",
+      "finding_key": "EFF_T2_02_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_02_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_02_HR",
+      "finding_key": "EFF_T2_02_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_02_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_03_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_03_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_03_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_03_ARM_PLACEBO",
+      "finding_key": "EFF_T2_03_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_03_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_03_HR",
+      "finding_key": "EFF_T2_03_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_03_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_04_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_04_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_04_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_04_ARM_PLACEBO",
+      "finding_key": "EFF_T2_04_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_04_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_04_HR",
+      "finding_key": "EFF_T2_04_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_04_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_05_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_05_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_05_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_05_ARM_PLACEBO",
+      "finding_key": "EFF_T2_05_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_05_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_05_HR",
+      "finding_key": "EFF_T2_05_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_05_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_06_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_06_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_06_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_06_ARM_PLACEBO",
+      "finding_key": "EFF_T2_06_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_06_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_06_HR",
+      "finding_key": "EFF_T2_06_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_06_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_07_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_07_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_07_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_07_ARM_PLACEBO",
+      "finding_key": "EFF_T2_07_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_07_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_07_HR",
+      "finding_key": "EFF_T2_07_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_07_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_08_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_08_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_08_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_08_ARM_PLACEBO",
+      "finding_key": "EFF_T2_08_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_08_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_08_HR",
+      "finding_key": "EFF_T2_08_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_08_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_09_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_09_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_09_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_09_ARM_PLACEBO",
+      "finding_key": "EFF_T2_09_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_09_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_09_HR",
+      "finding_key": "EFF_T2_09_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_09_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_10_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_10_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_10_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_10_ARM_PLACEBO",
+      "finding_key": "EFF_T2_10_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_10_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_10_HR",
+      "finding_key": "EFF_T2_10_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_10_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_11_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_11_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_11_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_11_ARM_PLACEBO",
+      "finding_key": "EFF_T2_11_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_11_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_11_HR",
+      "finding_key": "EFF_T2_11_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_11_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_12_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_12_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_12_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_12_ARM_PLACEBO",
+      "finding_key": "EFF_T2_12_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_12_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_12_HR",
+      "finding_key": "EFF_T2_12_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_12_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_13_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_13_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_13_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_13_ARM_PLACEBO",
+      "finding_key": "EFF_T2_13_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_13_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_13_HR",
+      "finding_key": "EFF_T2_13_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_13_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_14_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T2_14_ARM_SEMAGLUTIDE",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_14_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_14_ARM_PLACEBO",
+      "finding_key": "EFF_T2_14_ARM_PLACEBO",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_14_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T2_14_HR",
+      "finding_key": "EFF_T2_14_HR",
+      "source_page": 7,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T2_14_HR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_0",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_6",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_12",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_18",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_24",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_30",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_36",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_42",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_PLACEBO_48",
+      "finding_key": "FIG1_RISK_1_ARM_PLACEBO_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_PLACEBO_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_0",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_6",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_12",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_18",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_24",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_30",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_36",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_42",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_1_ARM_SEMAGLUTIDE_48",
+      "finding_key": "FIG1_RISK_1_ARM_SEMAGLUTIDE_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_1_ARM_SEMAGLUTIDE_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_0",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_6",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_12",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_18",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_24",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_30",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_36",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_42",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_PLACEBO_48",
+      "finding_key": "FIG1_RISK_2_ARM_PLACEBO_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_PLACEBO_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_0",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_6",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_12",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_18",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_24",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_30",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_36",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_42",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_2_ARM_SEMAGLUTIDE_48",
+      "finding_key": "FIG1_RISK_2_ARM_SEMAGLUTIDE_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_2_ARM_SEMAGLUTIDE_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_0",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_6",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_12",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_18",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_24",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_30",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_36",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_42",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_PLACEBO_48",
+      "finding_key": "FIG1_RISK_3_ARM_PLACEBO_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_PLACEBO_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_0",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_6",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_12",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_18",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_24",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_30",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_36",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_42",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_3_ARM_SEMAGLUTIDE_48",
+      "finding_key": "FIG1_RISK_3_ARM_SEMAGLUTIDE_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_3_ARM_SEMAGLUTIDE_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_0",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_6",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_12",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_18",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_24",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_30",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_36",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_42",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_PLACEBO_48",
+      "finding_key": "FIG1_RISK_4_ARM_PLACEBO_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_PLACEBO_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_0",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_0",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_6",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_6",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_6"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_12",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_12",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_18",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_18",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_24",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_24",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_24"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_30",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_30",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_36",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_36",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_36"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_42",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_42",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_42"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_FIG1_RISK_4_ARM_SEMAGLUTIDE_48",
+      "finding_key": "FIG1_RISK_4_ARM_SEMAGLUTIDE_48",
+      "source_page": 6,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "FIG1_RISK_4_ARM_SEMAGLUTIDE_48"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_HBA1C_52_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_HBA1C_52_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_HBA1C_52_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_HBA1C_52_ARM_PLACEBO",
+      "finding_key": "EFF_T3_HBA1C_52_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_HBA1C_52_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_HBA1C_52_OR",
+      "finding_key": "EFF_T3_HBA1C_52_OR",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_HBA1C_52_OR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_HBA1C_104_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_HBA1C_104_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_HBA1C_104_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_HBA1C_104_ARM_PLACEBO",
+      "finding_key": "EFF_T3_HBA1C_104_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_HBA1C_104_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_HBA1C_104_OR",
+      "finding_key": "EFF_T3_HBA1C_104_OR",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_HBA1C_104_OR"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_01_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_01_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_01_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_01_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_01_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_01_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_01_DIFF",
+      "finding_key": "EFF_T3_CONT_01_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_01_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_02_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_02_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_02_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_02_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_02_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_02_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_02_DIFF",
+      "finding_key": "EFF_T3_CONT_02_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_02_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_03_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_03_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_03_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_03_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_03_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_03_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_03_DIFF",
+      "finding_key": "EFF_T3_CONT_03_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_03_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_04_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_04_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_04_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_04_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_04_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_04_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_04_DIFF",
+      "finding_key": "EFF_T3_CONT_04_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_04_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_05_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_05_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_05_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_05_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_05_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_05_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_05_DIFF",
+      "finding_key": "EFF_T3_CONT_05_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_05_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_06_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_06_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_06_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_06_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_06_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_06_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_06_DIFF",
+      "finding_key": "EFF_T3_CONT_06_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_06_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_07_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_07_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_07_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_07_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_07_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_07_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_07_DIFF",
+      "finding_key": "EFF_T3_CONT_07_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_07_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_08_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_CONT_08_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_08_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_08_ARM_PLACEBO",
+      "finding_key": "EFF_T3_CONT_08_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_08_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_CONT_08_DIFF",
+      "finding_key": "EFF_T3_CONT_08_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_CONT_08_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_01_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_LOG_01_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_01_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_01_ARM_PLACEBO",
+      "finding_key": "EFF_T3_LOG_01_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_01_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_01_DIFF",
+      "finding_key": "EFF_T3_LOG_01_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_01_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_02_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_LOG_02_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_02_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_02_ARM_PLACEBO",
+      "finding_key": "EFF_T3_LOG_02_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_02_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_02_DIFF",
+      "finding_key": "EFF_T3_LOG_02_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_02_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_03_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_LOG_03_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_03_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_03_ARM_PLACEBO",
+      "finding_key": "EFF_T3_LOG_03_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_03_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_03_DIFF",
+      "finding_key": "EFF_T3_LOG_03_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_03_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_04_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_LOG_04_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_04_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_04_ARM_PLACEBO",
+      "finding_key": "EFF_T3_LOG_04_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_04_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_04_DIFF",
+      "finding_key": "EFF_T3_LOG_04_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_04_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_05_ARM_SEMAGLUTIDE",
+      "finding_key": "EFF_T3_LOG_05_ARM_SEMAGLUTIDE",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_05_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_05_ARM_PLACEBO",
+      "finding_key": "EFF_T3_LOG_05_ARM_PLACEBO",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_05_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_EFF_T3_LOG_05_DIFF",
+      "finding_key": "EFF_T3_LOG_05_DIFF",
+      "source_page": 8,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "EFF_T3_LOG_05_DIFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_01_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_01_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_01_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_01_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_01_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_01_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_02_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_02_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_02_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_02_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_02_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_02_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_03_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_03_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_03_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_03_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_03_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_03_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_04_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_04_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_04_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_04_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_04_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_04_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_05_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_05_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_05_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_05_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_05_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_05_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_06_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_06_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_06_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_06_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_06_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_06_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_07_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_07_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_07_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_07_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_07_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_07_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_08_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_08_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_08_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_08_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_08_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_08_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_09_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_09_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_09_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_09_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_09_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_09_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_10_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_10_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_10_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_10_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_10_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_10_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_11_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_11_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_11_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_11_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_11_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_11_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_12_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_12_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_12_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_12_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_12_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_12_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_13_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_13_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_13_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_13_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_13_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_13_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_14_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_14_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_14_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_14_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_14_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_14_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_15_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_15_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_15_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_15_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_15_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_15_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_16_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_16_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_16_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_16_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_16_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_16_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_17_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_17_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_17_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_17_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_17_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_17_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_18_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_18_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_18_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_18_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_18_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_18_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_19_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_T4_19_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_19_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_T4_19_ARM_PLACEBO",
+      "finding_key": "SAFE_T4_19_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_T4_19_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_PANCREATITIS_INVESTIGATOR_ARM_SEMAGLUTIDE",
+      "finding_key": "SAFE_PANCREATITIS_INVESTIGATOR_ARM_SEMAGLUTIDE",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_PANCREATITIS_INVESTIGATOR_ARM_SEMAGLUTIDE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SAFE_PANCREATITIS_INVESTIGATOR_ARM_PLACEBO",
+      "finding_key": "SAFE_PANCREATITIS_INVESTIGATOR_ARM_PLACEBO",
+      "source_page": 9,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "SAFE_PANCREATITIS_INVESTIGATOR_ARM_PLACEBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_COMPLETED",
+      "finding_key": "PROC_COMPLETED",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_COMPLETED"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_VITAL",
+      "finding_key": "PROC_VITAL",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_VITAL"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_DISCONT_SEMA",
+      "finding_key": "PROC_DISCONT_SEMA",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_DISCONT_SEMA"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_DISCONT_PBO",
+      "finding_key": "PROC_DISCONT_PBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_DISCONT_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_EXPOSURE_ALL",
+      "finding_key": "PROC_EXPOSURE_ALL",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_EXPOSURE_ALL"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_EXPOSURE_SEMA",
+      "finding_key": "PROC_EXPOSURE_SEMA",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_EXPOSURE_SEMA"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_EXPOSURE_PBO",
+      "finding_key": "PROC_EXPOSURE_PBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_EXPOSURE_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_TREATMENT_TIME_SEMA",
+      "finding_key": "PROC_TREATMENT_TIME_SEMA",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_TREATMENT_TIME_SEMA"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_TREATMENT_TIME_PBO",
+      "finding_key": "PROC_TREATMENT_TIME_PBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_TREATMENT_TIME_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_TARGET_DOSE",
+      "finding_key": "PROC_TARGET_DOSE",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_TARGET_DOSE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_GLP1_VIOLATION_SEMA",
+      "finding_key": "PROC_GLP1_VIOLATION_SEMA",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_GLP1_VIOLATION_SEMA"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_GLP1_VIOLATION_PBO",
+      "finding_key": "PROC_GLP1_VIOLATION_PBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_GLP1_VIOLATION_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_OPEN_SEMA_SEMA",
+      "finding_key": "PROC_OPEN_SEMA_SEMA",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_OPEN_SEMA_SEMA"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_OPEN_SEMA_PBO",
+      "finding_key": "PROC_OPEN_SEMA_PBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_OPEN_SEMA_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_SGLT2_SEMA",
+      "finding_key": "PROC_SGLT2_SEMA",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_SGLT2_SEMA"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_SGLT2_PBO",
+      "finding_key": "PROC_SGLT2_PBO",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_SGLT2_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_SITES",
+      "finding_key": "PROC_SITES",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_SITES"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_COUNTRIES",
+      "finding_key": "PROC_COUNTRIES",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_COUNTRIES"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_FOLLOWUP",
+      "finding_key": "PROC_FOLLOWUP",
+      "source_page": 5,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_FOLLOWUP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_DOSE_STEP_0",
+      "finding_key": "PROC_DOSE_STEP_0",
+      "source_page": 3,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_DOSE_STEP_0"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_DOSE_STEP_4",
+      "finding_key": "PROC_DOSE_STEP_4",
+      "source_page": 3,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_DOSE_STEP_4"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_DOSE_STEP_8",
+      "finding_key": "PROC_DOSE_STEP_8",
+      "source_page": 3,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_DOSE_STEP_8"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_DOSE_STEP_12",
+      "finding_key": "PROC_DOSE_STEP_12",
+      "source_page": 3,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_DOSE_STEP_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_PROC_DOSE_STEP_16",
+      "finding_key": "PROC_DOSE_STEP_16",
+      "source_page": 3,
+      "evidence_type": "published table/text/printed figure label",
+      "expected_components": "all explicitly printed numeric components and statistical type",
+      "extraction_ids": [
+        "PROC_DOSE_STEP_16"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T2_01",
+      "finding_key": "TEST_T2_01",
+      "source_page": 7,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T2_01"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T2_02",
+      "finding_key": "TEST_T2_02",
+      "source_page": 7,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T2_02"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_HBA1C_52",
+      "finding_key": "TEST_T3_HBA1C_52",
+      "source_page": 8,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T3_HBA1C_52"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_HBA1C_104",
+      "finding_key": "TEST_T3_HBA1C_104",
+      "source_page": 8,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T3_HBA1C_104"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_01",
+      "finding_key": "TEST_T4_01",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_01"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_02",
+      "finding_key": "TEST_T4_02",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_02"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_03",
+      "finding_key": "TEST_T4_03",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_03"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_04",
+      "finding_key": "TEST_T4_04",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_04"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_05",
+      "finding_key": "TEST_T4_05",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_05"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_06",
+      "finding_key": "TEST_T4_06",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_06"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_07",
+      "finding_key": "TEST_T4_07",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_07"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_08",
+      "finding_key": "TEST_T4_08",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_08"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_09",
+      "finding_key": "TEST_T4_09",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_09"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_10",
+      "finding_key": "TEST_T4_10",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_10"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_11",
+      "finding_key": "TEST_T4_11",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_11"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_12",
+      "finding_key": "TEST_T4_12",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_12"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_13",
+      "finding_key": "TEST_T4_13",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_13"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_14",
+      "finding_key": "TEST_T4_14",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_14"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_15",
+      "finding_key": "TEST_T4_15",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_15"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_16",
+      "finding_key": "TEST_T4_16",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_16"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_17",
+      "finding_key": "TEST_T4_17",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_17"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_18",
+      "finding_key": "TEST_T4_18",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_18"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T4_19",
+      "finding_key": "TEST_T4_19",
+      "source_page": 9,
+      "evidence_type": "published statistical comparison",
+      "expected_components": "method, effect, CI and p-value when printed",
+      "extraction_ids": [
+        "TEST_T4_19"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SUPPLEMENTARY_UNAVAILABLE",
+      "finding_key": "supplementary_results",
+      "source_page": null,
+      "evidence_type": "document availability check",
+      "expected_components": "none; supplementary appendix not supplied",
+      "extraction_ids": [],
+      "status": "NOT_REPORTED_IN_SOURCE",
+      "source_status": "supplementary_not_supplied",
+      "missing_extraction_ids": []
+    }
+  ],
+  "safeguard": "Missing or unavailable source values remain blank; the validator never generates numbers."
+}

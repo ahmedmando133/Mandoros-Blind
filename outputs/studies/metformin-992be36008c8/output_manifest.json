@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-10-21",
+  "workbook": "mandros_input_corrected.xlsx",
+  "sha256": "6905d816f39aa46b947bd100164b2112b2e822ddac6894f5f792ed06029a0b5f",
+  "sheets": 14,
+  "outcome_records": 146,
+  "statistical_test_records": 24,
+  "between_arm_tests": 15,
+  "within_arm_subgroup_tests": 9,
+  "baseline_records": 0,
+  "efficacy_records": 18,
+  "process_records": 110,
+  "safety_records": 18,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 0,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Automated regression tests passed; Table 1 adherence totals reconcile to 100% within rounding tolerance."
+}

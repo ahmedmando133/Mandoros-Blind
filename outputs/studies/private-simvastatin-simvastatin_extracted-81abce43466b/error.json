@@ -1,0 +1,5 @@
+{
+  "type": "PermissionError",
+  "message": "[WinError 32] The process cannot access the file because it is being used by another process",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\MANDROS-Blind\\MANDROS-Blind\\run.py\", line 813, in process_job\n    correction = build_corrected_workbook(fixture_id, job_dir / corrected_name, preflight, job_dir, logger)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\MANDROS-Blind\\MANDROS-Blind\\run.py\", line 664, in build_corrected_workbook\n    copied, mode = _verified_prebuilt_copy(fixture_id, destination)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\MANDROS-Blind\\MANDROS-Blind\\run.py\", line 566, in _verified_prebuilt_copy\n    shutil.copy2(source, destination)\n  File \"C:\\Users\\Mando\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\shutil.py\", line 460, in copy2\n    _winapi.CopyFile2(src_, dst_, flags)\nPermissionError: [WinError 32] The process cannot access the file because it is being used by another process\n"
+}

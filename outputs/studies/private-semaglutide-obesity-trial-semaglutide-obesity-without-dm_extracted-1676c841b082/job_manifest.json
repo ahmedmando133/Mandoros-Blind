@@ -1,0 +1,39 @@
+{
+  "study_id": "private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted",
+  "discovery_source": "recursive discovery",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide Obesity without DM.pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide Obesity without DM_extracted.xlsx",
+  "input_hashes": {
+    "pdf": "7f08887b3a922dc03f1acc5ed448818355faa91299efe476830e70764fd9ec79",
+    "workbook": "6b5939e65b4e21a26755bdb30fe6be29b399f386e7a8ed542d064f24094c59aa"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:55:49+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082\\semaglutide-obesity-without-dm_extracted_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 0,
+  "issue_count": 166,
+  "blocking_issue_count": 98,
+  "recognized_fixture": "select-semaglutide-nejm-2023-v1",
+  "correction": {
+    "status": "generated",
+    "mode": "versioned_truth_bundle_builder",
+    "dataset": "semaglutide_select_workbook_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082\\semaglutide-obesity-without-dm_extracted_corrected.xlsx",
+    "sha256": "2f86facd3c10a1309cb05c7074792a8f0befa7bb59a6870c02b46e123250cdfb",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "builder_exit_code": 3221226505,
+    "builder_warning": "The exporter exited non-zero after writing a workbook that passed reopen verification."
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T11:56:41+00:00"
+}

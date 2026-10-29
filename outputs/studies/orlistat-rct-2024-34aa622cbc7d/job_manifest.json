@@ -1,0 +1,40 @@
+{
+  "study_id": "orlistat-rct-2024",
+  "discovery_source": "data/manifest.json",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\orlistat\\source.pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\orlistat\\mandros_input.xlsx",
+  "input_hashes": {
+    "pdf": "908c285c12b52e46a2bce1aea0f669a283006fecb12cd4a231d76ad57054f14e",
+    "workbook": "cce880771be33158bdec7748ea22705e9509c43b728f7cf7267fe3b1232ccc58"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:55:31+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\mandros_input_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 0,
+  "issue_count": 72,
+  "blocking_issue_count": 38,
+  "recognized_fixture": null,
+  "correction": {
+    "status": "generated",
+    "mode": "generic_pdf_mandros",
+    "dataset": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\generic_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\mandros_input_corrected.xlsx",
+    "sha256": "7bb10b45f976b8d106354d704661b3af20c4b8a4eccc4c5d71698a987ac7f750",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "manual_workbook_used": false,
+    "builder_exit_code": 0,
+    "builder_warning": null
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T11:55:49+00:00"
+}

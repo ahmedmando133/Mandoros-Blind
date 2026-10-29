@@ -1,0 +1,39 @@
+{
+  "rubric_id": "mandros-blind-rct-v1",
+  "version": "1.0.0",
+  "release_date": "2026-10-19",
+  "decision_rule": {
+    "publishable_minimum": 90,
+    "automatic_reject": [
+      "fabricated_record",
+      "wrong_arm",
+      "wrong_value",
+      "wrong_timepoint",
+      "missing_primary_outcome",
+      "missing_required_arm",
+      "unresolved_duplicate",
+      "unverifiable_source"
+    ]
+  },
+  "domains": [
+    {"id": "study_arms", "label": "Study design and arms", "weight": 10},
+    {"id": "eligibility", "label": "Inclusion and exclusion", "weight": 10},
+    {"id": "baseline", "label": "Baseline characteristics", "weight": 10},
+    {"id": "efficacy", "label": "Efficacy outcomes", "weight": 15},
+    {"id": "safety", "label": "Safety outcomes", "weight": 10},
+    {"id": "statistics", "label": "Statistical classification", "weight": 15},
+    {"id": "dose_timepoint", "label": "Dose, frequency and timepoint", "weight": 10},
+    {"id": "integrity", "label": "Duplication and record integrity", "weight": 5},
+    {"id": "provenance", "label": "Page-level provenance", "weight": 10},
+    {"id": "structure", "label": "Atomic structure and traceability", "weight": 5}
+  ],
+  "legacy_comparison_rubric": [
+    {"id": "numerical_accuracy", "weight": 30},
+    {"id": "statistical_interpretation", "weight": 20},
+    {"id": "pico_eligibility", "weight": 15},
+    {"id": "outcome_completeness", "weight": 15},
+    {"id": "duplication_integrity", "weight": 10},
+    {"id": "structure_traceability", "weight": 10}
+  ]
+}
+

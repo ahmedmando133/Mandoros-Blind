@@ -1,0 +1,451 @@
+{
+  "system": "Mandros Blind",
+  "version": "0.1.0",
+  "source_sha256": "a7e26c7c5b23818edbe38f140950c5e91cdeb254ff27f209b0952861bed189d3",
+  "input_workbook_sha256": "cce880771be33158bdec7748ea22705e9509c43b728f7cf7267fe3b1232ccc58",
+  "recognized_fixture": "orlistat-rct-2024-v1",
+  "decision": "REJECT",
+  "score": 29,
+  "score_max": 100,
+  "domain_scores": {
+    "study_arms": 6,
+    "eligibility": 3,
+    "baseline": 2,
+    "efficacy": 1,
+    "safety": 0,
+    "statistics": 3,
+    "dose_timepoint": 8,
+    "integrity": 0,
+    "provenance": 4,
+    "structure": 2
+  },
+  "blocking_issue_count": 42,
+  "issue_count": 42,
+  "issues": [
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 2,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 3,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 4,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 5,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 6,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 7,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 8,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 9,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 10,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 11,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 12,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 13,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 14,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 15,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 16,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 17,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 18,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 19,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 20,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 21,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 22,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 23,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 24,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 25,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 26,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 27,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 28,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 29,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 30,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 31,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 32,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 33,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 34,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 35,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 36,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 37,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "WRONG_BMI_THRESHOLD",
+      "severity": "critical",
+      "domain": "eligibility",
+      "sheet": "Eligibility",
+      "row": null,
+      "message": "The workbook reports BMI >=28 kg/m2, while the article specifies BMI >=25.0 kg/m2.",
+      "action": "Replace the BMI criterion with separate > and = operator cells and value 25.0.",
+      "blocking": true
+    },
+    {
+      "code": "INCOMPLETE_EXCLUSIONS",
+      "severity": "critical",
+      "domain": "eligibility",
+      "sheet": "Eligibility",
+      "row": null,
+      "message": "The article's liver-function, eGFR, secondary-obesity, and weight-altering medication exclusions are not fully represented.",
+      "action": "Add each exclusion as an independent criterion with atomic threshold fields.",
+      "blocking": true
+    },
+    {
+      "code": "FABRICATED_RACE_DISTRIBUTION",
+      "severity": "critical",
+      "domain": "baseline",
+      "sheet": "Baseline Characteristics",
+      "row": null,
+      "message": "Chinese recruitment was converted into unsupported 100% Asian arm-level baseline records.",
+      "action": "Delete the fabricated rows; nationality and recruitment setting do not prove race distribution.",
+      "blocking": true
+    },
+    {
+      "code": "WRONG_OR_MISSING_GOUT_FLARES",
+      "severity": "critical",
+      "domain": "efficacy",
+      "sheet": "Outcomes",
+      "row": null,
+      "message": "The primary gout-flare result is absent or conflicts with 11/28 placebo versus 5/35 orlistat.",
+      "action": "Extract the primary arm results and link the single HR/log-rank comparison.",
+      "blocking": true
+    },
+    {
+      "code": "INCOMPLETE_SECONDARY_EFFICACY",
+      "severity": "critical",
+      "domain": "efficacy",
+      "sheet": "Outcomes",
+      "row": null,
+      "message": "Most Table 2 secondary efficacy endpoints are missing.",
+      "action": "Extract every arm-specific Table 2 endpoint with its dispersion and one linked p-value.",
+      "blocking": true
+    },
+    {
+      "code": "MISSING_ORLISTAT_ADVERSE_EVENTS",
+      "severity": "critical",
+      "domain": "safety",
+      "sheet": "Safety Outcomes",
+      "row": null,
+      "message": "The main article reports oil spots and mild diarrhea, but the workbook does not contain them.",
+      "action": "Add every main-article adverse event and retain Supplementary Table S1 as an open review item.",
+      "blocking": true
+    }
+  ],
+  "limitations": [
+    "A structural pass is not proof of scientific correctness.",
+    "For an unseen trial, scientific correction requires a source-grounded truth bundle or independent human/AI adjudication.",
+    "PRISMA compliance is assessed at systematic-review level, not as a property of a single RCT extraction."
+  ]
+}

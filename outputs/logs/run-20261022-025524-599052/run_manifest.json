@@ -1,0 +1,87 @@
+{
+  "system": "Mandros Blind",
+  "pipeline_version": "0.3.0",
+  "started_from": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind",
+  "data_directory": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data",
+  "output_directory": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs",
+  "stable_study_output_directory": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies",
+  "session_directory": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\logs\\run-20261022-025524-599052",
+  "force_reprocess": false,
+  "finished_utc": "2026-10-21T22:55:24+00:00",
+  "counts": {
+    "success": 0,
+    "partial_success": 0,
+    "failed": 0,
+    "skipped_unchanged": 3,
+    "skipped_or_reference": 7
+  },
+  "jobs": [],
+  "unchanged": [
+    {
+      "registry_key": "metformin-992be36008c8",
+      "study_id": "metformin",
+      "pdf": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\metformin\\source.pdf",
+      "workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\metformin\\mandros_input.xlsx",
+      "status": "skipped_unchanged",
+      "output_dir": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8"
+    },
+    {
+      "registry_key": "orlistat-rct-2024-34aa622cbc7d",
+      "study_id": "orlistat-rct-2024",
+      "pdf": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\orlistat\\source.pdf",
+      "workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\orlistat\\mandros_input.xlsx",
+      "status": "skipped_unchanged",
+      "output_dir": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d"
+    },
+    {
+      "registry_key": "private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae",
+      "study_id": "private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7",
+      "pdf": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\empagliflozin\\empa vs placebo 2doses (RCT4).pdf",
+      "workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\empagliflozin\\empa_vs_placebo_2doses__RCT4_extracted (7).xlsx",
+      "status": "skipped_unchanged",
+      "output_dir": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae"
+    }
+  ],
+  "skipped": [
+    {
+      "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\metformin\\manual_benchmark.xlsx",
+      "status": "reference",
+      "reason": "manifest role 'manual_benchmark' is not a study audit input"
+    },
+    {
+      "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\references\\phase1_policy_source.json",
+      "status": "reference",
+      "reason": "manifest role 'phase1_policy_source' is not a study audit input"
+    },
+    {
+      "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\references\\phase1_prompt_source.docx",
+      "status": "reference",
+      "reason": "manifest role 'phase1_prompt_source' is not a study audit input"
+    },
+    {
+      "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\references\\PRISMA_2020_checklist.pdf",
+      "status": "reference",
+      "reason": "manifest role 'prisma_checklist' is not a study audit input"
+    },
+    {
+      "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\references\\PRISMA_explanation.pdf",
+      "status": "reference",
+      "reason": "manifest role 'prisma_explanation' is not a study audit input"
+    },
+    {
+      "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\references\\PRISMA_statement.pdf",
+      "status": "reference",
+      "reason": "manifest role 'prisma_statement' is not a study audit input"
+    },
+    {
+      "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\orlistat\\manual_layout_reference.xlsx",
+      "status": "reference",
+      "reason": "manifest role 'manual_layout_reference' is not a study audit input"
+    }
+  ],
+  "limitations": [
+    "The current repository contains no trained model checkpoint; processing uses the implemented deterministic rules and versioned truth bundles.",
+    "Unseen studies are audited but are not scientifically rewritten without an independently adjudicated truth bundle.",
+    "A structural validation pass is not equivalent to publication-ready scientific verification."
+  ]
+}

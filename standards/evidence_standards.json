@@ -1,0 +1,17 @@
+{
+  "version": "2026-10-19",
+  "standards": [
+    {"name": "PRISMA 2020", "scope": "systematic-review reporting", "url": "https://www.prisma-statement.org/prisma-2020", "note": "Not a single-RCT methodological-quality instrument."},
+    {"name": "CONSORT 2025", "scope": "randomized-trial reporting", "url": "https://www.bmj.com/content/389/bmj-2024-081123", "note": "Supersedes CONSORT 2010."},
+    {"name": "Cochrane Handbook chapter 5", "scope": "data collection", "url": "https://training.cochrane.org/handbook/current/chapter-05"},
+    {"name": "Cochrane RoB 2", "scope": "risk of bias in randomized trials", "url": "https://training.cochrane.org/handbook/current/chapter-08"},
+    {"name": "Cochrane Handbook chapter 10", "scope": "meta-analysis", "url": "https://training.cochrane.org/handbook/current/chapter-10"},
+    {"name": "Cochrane Handbook chapter 13", "scope": "missing evidence and reporting bias", "url": "https://training.cochrane.org/handbook/current/chapter-13"},
+    {"name": "Cochrane Handbook chapter 14", "scope": "GRADE certainty", "url": "https://training.cochrane.org/handbook/current/chapter-14"},
+    {"name": "Cochrane Handbook chapter 19", "scope": "adverse effects", "url": "https://training.cochrane.org/handbook/current/chapter-19"},
+    {"name": "ICH E9", "scope": "statistical principles", "url": "https://database.ich.org/sites/default/files/E9_Guideline.pdf"},
+    {"name": "ICH E9(R1)", "scope": "estimands and sensitivity analysis", "url": "https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf"},
+    {"name": "GRADE", "scope": "certainty of evidence", "url": "https://book.gradepro.org/"}
+  ]
+}
+

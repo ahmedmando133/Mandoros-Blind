@@ -1,0 +1,107 @@
+{
+  "system": "Mandros Blind",
+  "version": "0.1.0",
+  "source_sha256": "d822364a327b18ab11ab349a139a520bfde0d7dcd30250f8fab5f910a52ce967",
+  "input_workbook_sha256": "8ca93e24234199ce557d267fdcde0ea31269424a547b5ab5e0aa6c616149e593",
+  "recognized_fixture": null,
+  "decision": "MANUAL_REVIEW",
+  "score": 0,
+  "score_max": 100,
+  "domain_scores": {
+    "numerical_accuracy": 0,
+    "statistical_interpretation": 0,
+    "pico_eligibility": 0,
+    "outcome_completeness": 0,
+    "duplication_integrity": 0,
+    "structure_traceability": 0
+  },
+  "blocking_issue_count": 0,
+  "issue_count": 8,
+  "issues": [
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 47,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 48,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 50,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 51,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 53,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 54,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 59,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 60,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    }
+  ],
+  "limitations": [
+    "A structural pass is not proof of scientific correctness.",
+    "For an unseen trial, scientific correction requires a source-grounded truth bundle or independent human/AI adjudication.",
+    "PRISMA compliance is assessed at systematic-review level, not as a property of a single RCT extraction."
+  ]
+}

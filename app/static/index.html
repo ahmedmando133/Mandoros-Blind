@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mandros Blind — RCT verification</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="mark">MB</span><span>Mandros Blind<small>RCT verification engine</small></span></a>
+    <div class="header-actions"><span class="local"><i></i> Local only</span><button class="ghost" id="demoBtn">عرض تقييم Metformin</button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">SOURCE-GROUNDED · ATOMIC · AUDITABLE</div>
+      <h1>راجع ملف Mandros أمام الورقة الأصلية،<br><em>قبل أن يدخل الميتا-أناليسز.</em></h1>
+      <p>النظام لا يكتفي بفحص شكل الإكسيل. كل claim يحتاج arm صحيح، timepoint واضح، قيمة ووحدة منفصلتين، ومصدر يمكن تتبعه داخل الـPDF.</p>
+      <div class="standards"><span>CONSORT 2025</span><span>Cochrane RoB 2</span><span>ICH E9(R1)</span><span>PRISMA 2020</span></div>
+    </section>
+
+    <section class="workspace">
+      <form id="auditForm" class="upload-card">
+        <div class="step"><b>01</b><span>المدخلات</span></div>
+        <h2>ابدئي مراجعة blinded</h2>
+        <label class="drop"><span class="icon">PDF</span><strong>الورقة الأصلية</strong><small>PDF فقط — يبقى على جهازك</small><input required type="file" name="pdf" accept="application/pdf"></label>
+        <label class="drop"><span class="icon excel">XLSX</span><strong>ملف Mandros</strong><small>الإصدار المراد تقييمه وتصحيحه</small><input required type="file" name="xlsx" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"></label>
+        <button class="primary" type="submit">تشغيل التحقق والتصحيح <span>←</span></button>
+        <p class="privacy">لا يتم رفع الملفات إلى خدمة خارجية. التشغيل والمراجع محفوظة محليًا.</p>
+      </form>
+
+      <aside class="contract-card">
+        <div class="step"><b>02</b><span>عقد التحقق</span></div>
+        <h2>ما الذي يتم فحصه؟</h2>
+        <ul>
+          <li><b>الترابط</b><span>Arm IDs، sample scope، duplicate keys</span></li>
+          <li><b>الذرّية</b><span>رقم / وحدة / operator / dispersion / timepoint</span></li>
+          <li><b>المحتوى العلمي</b><span>PICO، الجرعة، baseline، efficacy، safety</span></li>
+          <li><b>التتبّع</b><span>صفحة وموقع المصدر وحالة التحقق</span></li>
+          <li><b>القرار</b><span>PASS / REVIEW / REJECT بقواعد مانعة</span></li>
+        </ul>
+        <div class="truth"><strong>قاعدة الأمان</strong><p>لن نصحح قيمة علمية تلقائيًا بلا دليل مصدر أو adjudication مستقلة.</p></div>
+      </aside>
+    </section>
+
+    <section id="result" class="result hidden">
+      <div class="result-head"><div><span class="kicker">ASSESSMENT RESULT</span><h2>نتيجة التقييم</h2></div><div class="score"><strong id="score">—</strong><small>/100</small></div><span id="decision" class="decision">—</span></div>
+      <div class="result-grid">
+        <div class="panel"><h3>ملخص</h3><div class="metrics"><div><b id="blockers">—</b><span>أخطاء مانعة</span></div><div><b id="issueCount">—</b><span>إجمالي الملاحظات</span></div></div><div id="downloads" class="downloads"></div></div>
+        <div class="panel wide"><h3>أهم الأخطاء</h3><div id="issues" class="issues"></div></div>
+      </div>
+    </section>
+  </main>
+  <footer><span>Mandros Blind v0.1</span><span>PRISMA ينظم المراجعة المنهجية؛ لا يُستخدم وحده لتقييم صحة RCT.</span></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
+

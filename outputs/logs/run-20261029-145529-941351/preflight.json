@@ -1,0 +1,329 @@
+{
+  "timestamp_utc": "2026-10-29T11:55:30+00:00",
+  "python": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+  "dependencies": {
+    "pypdf": "6.19.0",
+    "openpyxl": "3.1.5",
+    "node_executable": "C:\\Program Files\\nodejs\\node.exe",
+    "node_version": "v24.22.0",
+    "artifact_tool_available": true
+  },
+  "knowledge_inventory": [
+    {
+      "name": "clinical_trial_statistics_v1.json",
+      "sha256": "70f68d54b9c498d46cdaccbbd2ab2ce8b2e92136bfe93ea54a98ea26c8c707c4",
+      "top_level_keys": [
+        "authority",
+        "descriptive_and_uncertainty",
+        "effect_measures",
+        "global_rules",
+        "inference_rules",
+        "outcome_data_types",
+        "purpose",
+        "reference_id",
+        "tests_and_models",
+        "version"
+      ]
+    },
+    {
+      "name": "dapagliflozin_workbook_dataset.json",
+      "sha256": "5e632878099a89328ec90bf5b5891cd9ebf71d64483a2d9ee84f614f6d4c725a",
+      "top_level_keys": [
+        "arms",
+        "baseline",
+        "baseline_status",
+        "dataset_id",
+        "document_inventory",
+        "eligibility",
+        "generation_mode",
+        "mandros_document",
+        "mandros_domain_scores",
+        "mandros_sha256",
+        "master_study_rows",
+        "outcomes",
+        "output_filename",
+        "phase2_readiness",
+        "preview_prefix",
+        "qa_rows",
+        "source_conflicts",
+        "source_document",
+        "source_sha256",
+        "statistical_methods",
+        "statistical_tests",
+        "study",
+        "validation_log",
+        "version"
+      ]
+    },
+    {
+      "name": "empagliflozin_basal_workbook_dataset.json",
+      "sha256": "548b2214a512374f1df802347d626cc8b22d3b286373c7af31d1dc67bbf96fe9",
+      "top_level_keys": [
+        "arms",
+        "baseline",
+        "baseline_status",
+        "dataset_id",
+        "document_inventory",
+        "eligibility",
+        "generation_mode",
+        "mandros_document",
+        "mandros_domain_scores",
+        "mandros_sha256",
+        "master_study_rows",
+        "outcomes",
+        "output_filename",
+        "phase2_readiness",
+        "preview_prefix",
+        "primary_endpoint",
+        "qa_rows",
+        "source_conflicts",
+        "source_document",
+        "source_inventory",
+        "source_inventory_independent",
+        "source_inventory_scope",
+        "source_sha256",
+        "statistical_methods",
+        "statistical_tests",
+        "strict_source_tuple_validation",
+        "study",
+        "validation_log",
+        "version"
+      ]
+    },
+    {
+      "name": "evidence_standards.json",
+      "sha256": "ec4ebc16bcdc88738a0505082be0160dcb2f051d7e07c9d8ee14130a42d36fcd",
+      "top_level_keys": [
+        "standards",
+        "version"
+      ]
+    },
+    {
+      "name": "metformin_table1_adherence.json",
+      "sha256": "c4a3b96513e640284cfb2b0ab59e49eee6c9a6005987e7770de57cc5c4812fe8",
+      "top_level_keys": [
+        "dataset_id",
+        "distribution_blocks",
+        "levels",
+        "placebo_combined",
+        "source_page",
+        "source_table",
+        "statistical_tests",
+        "visit_adherent_definition",
+        "weight_loss_blocks"
+      ]
+    },
+    {
+      "name": "metformin_truth_bundle.json",
+      "sha256": "87e4a907e6e8aa66edcf05f807dae61e5b4a3a74fcca6c2c73b3b134f30bceae",
+      "top_level_keys": [
+        "arms",
+        "baseline_status",
+        "eligibility",
+        "fixture_id",
+        "outcomes",
+        "source_sha256",
+        "study"
+      ]
+    },
+    {
+      "name": "metformin_workbook_dataset.json",
+      "sha256": "92deadb7fd0ba0734c7190ffbb71cfd98d347b6e9a1a842641b830abbba64670",
+      "top_level_keys": [
+        "arms",
+        "baseline_status",
+        "eligibility",
+        "fixture_id",
+        "outcomes",
+        "source_sha256",
+        "statistical_tests",
+        "study"
+      ]
+    },
+    {
+      "name": "orlistat_workbook_dataset.json",
+      "sha256": "924f6ba3b3a4c80d443b6f26656430cfe2a3b42d284c1b4b81399bde880c5a65",
+      "top_level_keys": [
+        "arms",
+        "baseline_pairs",
+        "dataset_id",
+        "document_inventory",
+        "eligibility",
+        "mandros_document",
+        "mandros_domain_scores",
+        "mandros_score",
+        "mandros_sha256",
+        "manual_layout_reference",
+        "manual_layout_sha256",
+        "master_study_rows",
+        "outcome_pairs",
+        "outcomes",
+        "output_filename",
+        "output_subdir",
+        "phase2_readiness",
+        "preview_prefix",
+        "qa_rows",
+        "source_conflicts",
+        "source_document",
+        "source_sha256",
+        "statistical_methods",
+        "statistical_tests",
+        "study",
+        "validation_log",
+        "version"
+      ]
+    },
+    {
+      "name": "phase1_policy_v1.json",
+      "sha256": "cf26aa57e55576f118aef3462c9e54e0d16d979ec8f51c744572f2762c5ce38c",
+      "top_level_keys": [
+        "authority_order",
+        "derived_from",
+        "policy_id",
+        "rules",
+        "version"
+      ]
+    },
+    {
+      "name": "rubric_v1.json",
+      "sha256": "fe88f25e0491224ef08cce3dbeadffe46b91b7e5d7577329303a572d73e8bf7e",
+      "top_level_keys": [
+        "decision_rule",
+        "domains",
+        "legacy_comparison_rubric",
+        "release_date",
+        "rubric_id",
+        "version"
+      ]
+    },
+    {
+      "name": "semaglutide_select_workbook_dataset.json",
+      "sha256": "34fb84de4d6ea62b85cdebb95dc93d13c5e5b8f60f3a99759662c3314e850e59",
+      "top_level_keys": [
+        "arms",
+        "baseline",
+        "baseline_status",
+        "dataset_id",
+        "document_inventory",
+        "eligibility",
+        "generation_mode",
+        "mandros_document",
+        "mandros_domain_scores",
+        "mandros_sha256",
+        "master_study_rows",
+        "outcomes",
+        "output_filename",
+        "phase2_readiness",
+        "preview_prefix",
+        "qa_rows",
+        "source_conflicts",
+        "source_document",
+        "source_inventory",
+        "source_inventory_independent",
+        "source_inventory_scope",
+        "source_sha256",
+        "statistical_methods",
+        "statistical_tests",
+        "study",
+        "validation_log",
+        "version"
+      ]
+    },
+    {
+      "name": "simvastatin_workbook_dataset.json",
+      "sha256": "677b112a2e57ee9b452a139233267501564216475f25fb5b7aff4fd36cf013ba",
+      "top_level_keys": [
+        "arms",
+        "baseline",
+        "baseline_status",
+        "dataset_id",
+        "document_inventory",
+        "eligibility",
+        "generation_mode",
+        "mandros_document",
+        "mandros_domain_scores",
+        "mandros_sha256",
+        "master_study_rows",
+        "outcomes",
+        "output_filename",
+        "phase2_readiness",
+        "preview_prefix",
+        "qa_rows",
+        "source_conflicts",
+        "source_document",
+        "source_inventory",
+        "source_inventory_independent",
+        "source_inventory_scope",
+        "source_sha256",
+        "statistical_methods",
+        "statistical_tests",
+        "study",
+        "validation_log",
+        "version"
+      ]
+    },
+    {
+      "name": "system_contract_v1.json",
+      "sha256": "1360a6c28b15ba73cdacf396702178ba6547387f2c14c635ed38fe307b3da17c",
+      "top_level_keys": [
+        "atomicity",
+        "automatic_extraction_skill",
+        "contract_id",
+        "future_study_input_contract",
+        "gates",
+        "master_sections",
+        "missingness",
+        "primary_endpoint_gate",
+        "required_entities",
+        "safe_automation_rule",
+        "source_completeness",
+        "source_identity_tuple",
+        "statistical_semantics",
+        "version"
+      ]
+    },
+    {
+      "name": "data\\manifest.json",
+      "sha256": "3299b6a1d8e671c14ca766561da29c05a4c06cad4f5e39edb2b456928a529a2d",
+      "top_level_keys": [
+        "created",
+        "files",
+        "manifest_version",
+        "privacy"
+      ]
+    }
+  ],
+  "model_artifacts": [],
+  "model_status": "no_trained_model_artifacts_present; current pipeline is deterministic and configuration-driven",
+  "data_manifest_loaded": true,
+  "system_extraction_policy": {
+    "policy_id": "mandros-blind-optimal-rct-extraction-v1",
+    "automatic_application": true,
+    "prompt_version": "1.1.0",
+    "statistics_version": "1.0.0",
+    "phase1_policy_version": "1.6.0",
+    "system_contract_version": "1.9.0",
+    "files": {
+      "prompt": {
+        "path": "standards\\optimal_extraction_prompt_v1.md",
+        "sha256": "c2bb05cc9265c0b1e71ab66895582ef6a81c07687cf85204512abd0a3008307a"
+      },
+      "statistics": {
+        "path": "standards\\clinical_trial_statistics_v1.json",
+        "sha256": "70f68d54b9c498d46cdaccbbd2ab2ce8b2e92136bfe93ea54a98ea26c8c707c4"
+      },
+      "phase1_policy": {
+        "path": "standards\\phase1_policy_v1.json",
+        "sha256": "cf26aa57e55576f118aef3462c9e54e0d16d979ec8f51c744572f2762c5ce38c"
+      },
+      "system_contract": {
+        "path": "standards\\system_contract_v1.json",
+        "sha256": "1360a6c28b15ba73cdacf396702178ba6547387f2c14c635ed38fe307b3da17c"
+      },
+      "skill": {
+        "path": "skills\\mandoros-blind-phase1-statistical-integrity\\SKILL.md",
+        "sha256": "e69e3ddbc0af4ecc41fa4ca6d4a3465431275ad353258056175f13f7df8ffafc"
+      }
+    }
+  }
+}

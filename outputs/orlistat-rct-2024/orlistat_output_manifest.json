@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-10-21",
+  "workbook": "orlistat_Mandros_Blind_corrected.xlsx",
+  "sha256": "890cfe90af2ad0968431b2c8f3bb88d4b557218cd254359ba5f4300e7ce5a8ee",
+  "sheets": 14,
+  "outcome_records": 59,
+  "statistical_test_records": 60,
+  "between_arm_tests": 23,
+  "within_arm_subgroup_tests": 0,
+  "baseline_records": 68,
+  "efficacy_records": 50,
+  "process_records": 4,
+  "safety_records": 5,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 0,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Source-checked against the supplied main article. Only values present in the supplied main article are reported."
+}

@@ -1,0 +1,39 @@
+{
+  "study_id": "private-empagliflozin-2-empa-vs-placebo_extracted",
+  "discovery_source": "recursive discovery",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo.pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo_extracted.xlsx",
+  "input_hashes": {
+    "pdf": "67a914ced6084afd7ab2ccb7d82bb07f682bbfa4f73ba11a59e99b7483413683",
+    "workbook": "3b7255939245d4c775f6310b0d63a301c286e75b2bebaa1889d22bfabd644ddf"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:58:36+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\empa-vs-placebo_extracted_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 18,
+  "issue_count": 61,
+  "blocking_issue_count": 53,
+  "recognized_fixture": "empagliflozin-basal-dom-2015-v1",
+  "correction": {
+    "status": "generated",
+    "mode": "versioned_truth_bundle_builder",
+    "dataset": "empagliflozin_basal_workbook_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\empa-vs-placebo_extracted_corrected.xlsx",
+    "sha256": "fc93ff5f3d1a4e803aad821ec375088a4bd9313ca087ae89ee04a550785398d7",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "builder_exit_code": 3221226505,
+    "builder_warning": "The exporter exited non-zero after writing a workbook that passed reopen verification."
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T11:59:38+00:00"
+}

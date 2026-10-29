@@ -1,0 +1,34 @@
+{
+  "snapshot": {
+    "policy_id": "mandros-blind-optimal-rct-extraction-v1",
+    "automatic_application": true,
+    "prompt_version": "1.0.0",
+    "statistics_version": "1.0.0",
+    "phase1_policy_version": "1.5.0",
+    "system_contract_version": "1.8.0",
+    "files": {
+      "prompt": {
+        "path": "standards\\optimal_extraction_prompt_v1.md",
+        "sha256": "56522d51eba35ecfc5c21775bc6bc064f7dc86ee451870a3843d3767ced73c17"
+      },
+      "statistics": {
+        "path": "standards\\clinical_trial_statistics_v1.json",
+        "sha256": "70f68d54b9c498d46cdaccbbd2ab2ce8b2e92136bfe93ea54a98ea26c8c707c4"
+      },
+      "phase1_policy": {
+        "path": "standards\\phase1_policy_v1.json",
+        "sha256": "9bb3473d10e46280b40bed97cb3bcfc2e676611bffe76911623375939322baaa"
+      },
+      "system_contract": {
+        "path": "standards\\system_contract_v1.json",
+        "sha256": "4be04808bf6ce75b7742aa55df9bded54081b282fba08200b743a2cf79b6a3c3"
+      },
+      "skill": {
+        "path": "skills\\mandoros-blind-phase1-statistical-integrity\\SKILL.md",
+        "sha256": "ced305b5e8ff378cc53ea58b74963ab59c453eb662fc990e3812d0e878440d80"
+      }
+    }
+  },
+  "issues": [],
+  "blocking_issue_count": 0
+}

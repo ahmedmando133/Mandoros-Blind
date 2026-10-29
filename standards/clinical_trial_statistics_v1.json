@@ -1,0 +1,69 @@
+{
+  "reference_id": "mandros-blind-clinical-trial-statistics-v1",
+  "version": "1.0.0",
+  "purpose": "Machine-readable statistical terminology for classification of explicitly reported clinical-trial results; never a basis for inventing or selecting an unreported method.",
+  "authority": ["source article and supplied protocol/SAP", "ICH E9 and E9(R1)", "CONSORT 2025", "Cochrane Handbook", "project adjudication rules"],
+  "global_rules": [
+    "Preserve the source's statistical label and definition.",
+    "Do not infer a test or model from the data shape alone.",
+    "Do not convert between effect measures or uncertainty measures unless an approved derivation rule explicitly authorizes it.",
+    "Keep arm-level summaries, between-arm effects, tests, analysis populations, covariates, multiplicity and provenance distinct."
+  ],
+  "descriptive_and_uncertainty": {
+    "MEAN": "Arithmetic average reported for a defined arm, population and timepoint.",
+    "SD": "Between-participant variability around a mean; not precision of the mean.",
+    "SE": "Precision measure for an estimate; not interchangeable with SD.",
+    "MEDIAN": "Middle observed value; store distribution bounds according to their actual label.",
+    "IQR": "Interval from Q1 to Q3 describing the middle half of observations; not a confidence interval.",
+    "RANGE": "Reported minimum to maximum observations; not IQR or confidence limits.",
+    "CONFIDENCE_INTERVAL": "Frequentist interval for a defined estimate and confidence level; preserve estimate, level and both limits.",
+    "GEOMETRIC_MEAN": "Central value on a multiplicative scale, commonly obtained after log transformation; preserve the source transformation and back-transformation semantics.",
+    "LEAST_SQUARES_MEAN": "Model-adjusted mean; preserve model, covariates and contrast when reported. Do not treat it as a raw mean."
+  },
+  "effect_measures": {
+    "MEAN_DIFFERENCE": "Difference between two means on the original scale.",
+    "STANDARDIZED_MEAN_DIFFERENCE": "Difference in means expressed in pooled standard-deviation units; preserve the named estimator if reported.",
+    "RISK_RATIO": "Ratio of event risks/proportions between groups.",
+    "ODDS_RATIO": "Ratio of event odds between groups; not a risk ratio.",
+    "RISK_DIFFERENCE": "Absolute difference between event risks/proportions.",
+    "HAZARD_RATIO": "Relative instantaneous event hazard from a time-to-event model; not an odds or risk ratio.",
+    "INCIDENCE_RATE_RATIO": "Ratio of event rates using person-time or another reported exposure denominator.",
+    "RATIO_OF_MEANS": "Ratio of group means or geometric means; preserve whether it was log-modelled and back-transformed.",
+    "LOG_TRANSFORMED_RELATIVE_PERCENTAGE_CHANGE": "Published relative percentage effect from a log-scale model; preserve arm estimates and the model contrast independently.",
+    "NUMBER_NEEDED_TO_TREAT": "Reported reciprocal absolute-effect summary; preserve direction, horizon and CI, and never calculate it unless explicitly authorized."
+  },
+  "outcome_data_types": {
+    "CONTINUOUS": "Requires the reported metric (final, change, percent change or other), arm/population/timepoint, central estimate and actual uncertainty/dispersion type.",
+    "BINARY": "Requires event count and denominator for each arm when printed, plus any published comparison estimate.",
+    "COUNT_OR_RATE": "Requires event count, exposure/person-time denominator and the reported count/rate model or effect when available.",
+    "TIME_TO_EVENT": "Requires event definition, time origin/horizon, analysis population, effect/CI, censoring or number-at-risk details when explicitly printed, and the reported model/test.",
+    "ORDINAL": "Requires category/scale direction, cut point or full distribution and the reported ordinal method/effect.",
+    "REPEATED_MEASURES": "Requires scheduled timepoints, correlation/repeated structure, analysis population and model-based contrast when reported."
+  },
+  "tests_and_models": {
+    "INDEPENDENT_T_TEST": "Reported parametric comparison of two independent group means.",
+    "PAIRED_T_TEST": "Reported parametric comparison of paired or repeated measurements within matched units.",
+    "ANOVA": "Reported analysis comparing means across factors/groups; preserve factors and contrast.",
+    "ANCOVA": "Reported model comparing outcomes while adjusting for baseline or other covariates; preserve covariates and adjusted effect.",
+    "MMRM": "Reported mixed model for repeated measures; preserve repeated structure, visits, covariance details and estimand when available.",
+    "MANN_WHITNEY_U": "Reported rank-based comparison of independent groups; do not label its result a median difference unless the paper does.",
+    "WILCOXON_SIGNED_RANK": "Reported rank-based comparison of paired measurements.",
+    "CHI_SQUARED": "Reported large-sample test of categorical association/proportions.",
+    "FISHER_EXACT": "Reported exact test for a categorical contingency table.",
+    "LOGISTIC_REGRESSION": "Reported model for a binary outcome, commonly producing an odds ratio; preserve covariates and link function if stated.",
+    "COX_PROPORTIONAL_HAZARDS": "Reported time-to-event regression commonly producing a hazard ratio; preserve covariates and proportional-hazards context.",
+    "LOG_RANK": "Reported test comparing survival/event-time curves; it does not itself define a hazard ratio.",
+    "POISSON_REGRESSION": "Reported count/rate model; preserve offset/exposure and overdispersion handling if stated.",
+    "NEGATIVE_BINOMIAL_REGRESSION": "Reported overdispersed count/rate model; preserve exposure and effect definition.",
+    "GEE": "Reported population-averaged model for correlated observations; preserve family, link and clustering unit.",
+    "KAPLAN_MEIER": "Reported nonparametric survival estimate; preserve time horizon, censoring context and directly printed values only."
+  },
+  "inference_rules": {
+    "p_value": "Store operator and numeric value separately, with sidedness, comparison, method and nominal/adjusted status.",
+    "multiplicity": "Preserve hierarchy, alpha allocation, gatekeeping or adjustment method. After a failed gate, do not fabricate tests that were not performed.",
+    "subgroup": "Preserve subgroup definition and interaction p-value separately from within-subgroup effects; a significant within-subgroup result does not prove interaction.",
+    "missing_data": "Preserve the stated handling or imputation method and the analysis population; do not infer a missingness mechanism.",
+    "sensitivity_analysis": "Keep sensitivity and supplementary analyses distinct from the main estimator and estimand.",
+    "estimand": "When reported, preserve population, treatment conditions, variable/endpoint, intercurrent-event strategy and population-level summary."
+  }
+}

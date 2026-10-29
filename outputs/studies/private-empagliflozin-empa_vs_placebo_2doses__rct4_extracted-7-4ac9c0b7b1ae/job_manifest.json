@@ -1,0 +1,40 @@
+{
+  "study_id": "private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7",
+  "discovery_source": "recursive discovery",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin\\empa vs placebo 2doses (RCT4).pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin\\empa_vs_placebo_2doses__RCT4_extracted (7).xlsx",
+  "input_hashes": {
+    "pdf": "b81459f7aea35817500e11737bd890c81f0902a875122e700658aa70438b7cdb",
+    "workbook": "ea7342cfe38d83db9ff4d459ec369414b82f7643f38172f9064f3726ff1133df"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:58:02+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\empa_vs_placebo_2doses__rct4_extracted-7_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 0,
+  "issue_count": 78,
+  "blocking_issue_count": 10,
+  "recognized_fixture": null,
+  "correction": {
+    "status": "generated",
+    "mode": "generic_pdf_mandros",
+    "dataset": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\generic_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\empa_vs_placebo_2doses__rct4_extracted-7_corrected.xlsx",
+    "sha256": "c672d0b9d33a6d1ccfc23063b97091603b637bde2203a328cb2ce6e20c531f5f",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "manual_workbook_used": false,
+    "builder_exit_code": 0,
+    "builder_warning": null
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T11:58:36+00:00"
+}

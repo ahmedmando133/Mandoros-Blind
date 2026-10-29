@@ -1,0 +1,39 @@
+{
+  "study_id": "private-simvastatin-simvastatin_extracted",
+  "discovery_source": "recursive discovery",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\simvastatin\\simvastatin.pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\simvastatin\\simvastatin_extracted.xlsx",
+  "input_hashes": {
+    "pdf": "09085b3d1e12f04804a5aa4168d7a41fff137d5245a318a44b0e973dd4dd0b3e",
+    "workbook": "ddaaec0774c831d111d59d30078f87431c5c0cc9594b0990cf199b6632347672"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:59:38+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b\\simvastatin_extracted_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 0,
+  "issue_count": 105,
+  "blocking_issue_count": 51,
+  "recognized_fixture": "simvastatin-phase1-statistical-integrity-v1",
+  "correction": {
+    "status": "generated",
+    "mode": "versioned_truth_bundle_builder",
+    "dataset": "simvastatin_workbook_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b\\simvastatin_extracted_corrected.xlsx",
+    "sha256": "b4cf68587bfa7bf26c20479e69a7f3a1769f68fd95c9b3d78476d621f50030a0",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "builder_exit_code": 3221226505,
+    "builder_warning": "The exporter exited non-zero after writing a workbook that passed reopen verification."
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T12:00:12+00:00"
+}

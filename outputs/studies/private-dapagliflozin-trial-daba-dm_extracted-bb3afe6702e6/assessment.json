@@ -1,0 +1,5117 @@
+{
+  "system": "Mandros Blind",
+  "version": "0.1.0",
+  "source_sha256": "f9b654de9369fd59c77e932e3ba891878b5ccbf3f9be6f427b10eab904ec9333",
+  "input_workbook_sha256": "df3a610c8ba0fd3296c7894ae54cbc6c44ee633c126c753a8ed51c339a433061",
+  "recognized_fixture": "dapagliflozin-monotherapy-dc10-0612-v1",
+  "decision": "REJECT",
+  "score": 0,
+  "score_max": 100,
+  "domain_scores": {
+    "numerical_accuracy": 0,
+    "statistical_interpretation": 0,
+    "pico_eligibility": 0,
+    "outcome_completeness": 0,
+    "duplication_integrity": 0,
+    "structure_traceability": 0
+  },
+  "blocking_issue_count": 437,
+  "issue_count": 509,
+  "issues": [
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 2,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 3,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 4,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 5,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 6,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 7,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 8,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 9,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 10,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 11,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 12,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 13,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 14,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 15,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 16,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 17,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 18,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 19,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 20,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 21,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 22,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 23,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 24,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 25,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 26,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 27,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 28,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 29,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 30,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 31,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 32,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 33,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 34,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 35,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 36,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 37,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 38,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 39,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 40,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 41,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 42,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 43,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 44,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 45,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 46,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 47,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 48,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 49,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 50,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 51,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 52,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 53,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 54,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 55,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 56,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 56,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 57,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 57,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 58,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 58,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 59,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 59,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 60,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 60,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 61,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 61,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 62,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 62,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 63,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 63,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 64,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 64,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 65,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 65,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 66,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 66,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 67,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 67,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 68,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 68,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 69,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 69,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 70,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 70,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 71,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 71,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 72,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 72,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 73,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 73,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 74,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 75,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 76,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 77,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 78,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 79,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 80,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 81,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 82,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 83,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 84,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 85,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 86,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 87,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 88,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 89,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 90,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 91,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 92,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 93,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 94,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 95,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 96,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 97,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 98,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 99,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 100,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 101,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 102,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 103,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 104,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 105,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 106,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 107,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 108,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 109,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 110,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 111,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 112,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 113,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 114,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 115,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 116,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 117,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 118,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 119,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 120,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 121,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 122,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 123,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 124,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 125,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 126,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 127,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 128,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 129,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 130,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 131,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 132,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 133,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 134,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 135,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 136,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 137,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 138,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 139,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 140,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 141,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 142,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 143,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 144,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 145,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 146,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 147,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 148,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 149,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 150,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 151,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 152,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 153,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 154,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 155,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 156,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 157,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 158,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 159,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 160,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 161,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 162,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 163,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 164,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 165,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 166,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 167,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 168,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 169,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 170,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 171,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 172,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 173,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 174,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 175,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 176,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 177,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 178,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 179,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 180,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 181,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 182,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 183,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 184,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 185,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 186,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 187,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 188,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 189,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 190,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 191,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 192,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 193,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 194,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 195,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 196,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 197,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 198,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 199,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 200,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 201,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 202,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 203,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 204,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 205,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 206,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 207,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 208,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 209,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 210,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 211,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 212,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 213,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 214,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 215,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 216,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 217,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 218,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 219,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 220,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 221,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 222,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 223,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 223,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 224,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 224,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 225,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 225,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 226,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 226,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 227,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 227,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 228,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 228,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 229,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 229,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 230,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 230,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 231,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 231,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 232,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 232,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 233,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 233,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 234,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 234,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 235,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 235,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 236,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 236,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 237,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 237,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 238,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 238,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 239,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 239,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 240,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 240,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 241,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 241,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 242,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 242,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 243,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 243,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 244,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 244,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 245,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 245,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 246,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 246,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 247,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 247,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 248,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 248,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 249,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 249,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 250,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 250,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 251,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 251,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 252,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 252,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 253,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 253,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 254,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 254,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 255,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 255,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 256,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 256,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 257,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 257,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 258,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 258,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 259,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 259,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 260,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 260,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 261,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 261,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 262,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 262,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 263,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 263,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 264,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 264,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 265,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 265,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 266,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 266,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 267,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 267,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 268,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 268,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 269,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 269,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 270,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 270,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 271,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 271,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 272,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 272,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 273,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 273,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 274,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 274,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 275,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 275,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 276,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 276,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 277,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 277,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 278,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 278,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 279,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 279,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 280,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 280,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 281,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 281,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 282,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 282,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 283,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 283,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 284,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 284,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 285,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 285,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 286,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 286,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 287,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 287,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 288,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 288,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 289,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 289,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 290,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 290,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 291,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 291,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 292,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 292,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 293,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 293,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 294,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 294,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 295,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 295,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 296,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 296,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 297,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 297,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 298,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 298,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 299,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 299,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 300,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 300,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 301,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 301,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 302,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 302,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 303,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 303,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 304,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 304,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 305,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 305,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 306,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 306,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 307,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 307,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 308,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 308,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 309,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 309,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 310,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 310,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 311,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 311,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 312,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 312,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 313,
+      "message": "Outcome references 'ARM_PLA_AM', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 313,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 314,
+      "message": "Outcome references 'ARM_DAPA_AM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 314,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 315,
+      "message": "Outcome references 'ARM_DAPA_AM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 315,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 316,
+      "message": "Outcome references 'ARM_DAPA_AM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 316,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 317,
+      "message": "Outcome references 'ARM_DAPA_PM_2_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 317,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 318,
+      "message": "Outcome references 'ARM_DAPA_PM_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 318,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 319,
+      "message": "Outcome references 'ARM_DAPA_PM_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 319,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 320,
+      "message": "Outcome references 'ARM_DAPA_HIGH_5', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 320,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 321,
+      "message": "Outcome references 'ARM_DAPA_HIGH_10', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 321,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 2,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 3,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 4,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 5,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 6,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 7,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 8,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 9,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 10,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 11,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 12,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 13,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 14,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 15,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 16,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 17,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 18,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 19,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 20,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 21,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 22,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 23,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 24,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 25,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 26,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 27,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 28,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 29,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 30,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 31,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 32,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 33,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 34,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 35,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 36,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 37,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 38,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 39,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 40,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 41,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 42,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 43,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 44,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 45,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 46,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 47,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 48,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 49,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 50,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 51,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 52,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 53,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 54,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 55,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 56,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 57,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 58,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 59,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 60,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 61,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 62,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 63,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 64,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 65,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 66,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 67,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 68,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 69,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 70,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 71,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 72,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 73,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    }
+  ],
+  "limitations": [
+    "A structural pass is not proof of scientific correctness.",
+    "For an unseen trial, scientific correction requires a source-grounded truth bundle or independent human/AI adjudication.",
+    "PRISMA compliance is assessed at systematic-review level, not as a property of a single RCT extraction."
+  ]
+}

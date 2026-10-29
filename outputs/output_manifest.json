@@ -1,0 +1,31 @@
+{
+  "generated_on": "2026-10-19",
+  "workbook": "metformin_Mandros_Blind_corrected.xlsx",
+  "sha256": "4ba89b29db74681229fe1b14c801e614608685653e479368a7490b05772f3824",
+  "sheets": 10,
+  "outcome_records": 146,
+  "statistical_test_records": 24,
+  "between_arm_tests": 15,
+  "within_arm_subgroup_tests": 9,
+  "efficacy_records": 18,
+  "adherence_records": 110,
+  "safety_records": 18,
+  "adherence_distribution_groups": 24,
+  "adherence_levels": 4,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 0,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Automated regression tests passed; Table 1 adherence totals reconcile to 100% within rounding tolerance."
+}

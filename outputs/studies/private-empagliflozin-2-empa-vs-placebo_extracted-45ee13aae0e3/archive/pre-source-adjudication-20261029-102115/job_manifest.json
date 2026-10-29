@@ -1,0 +1,40 @@
+{
+  "study_id": "private-empagliflozin-2-empa-vs-placebo_extracted",
+  "discovery_source": "recursive discovery",
+  "pdf": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo.pdf",
+  "workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo_extracted.xlsx",
+  "input_hashes": {
+    "pdf": "67a914ced6084afd7ab2ccb7d82bb07f682bbfa4f73ba11a59e99b7483413683",
+    "workbook": "3b7255939245d4c775f6310b0d63a301c286e75b2bebaa1889d22bfabd644ddf"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T05:07:03+00:00",
+  "outputs": {
+    "assessment_json": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\assessment.json",
+    "assessment_html": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\assessment.html",
+    "corrected_workbook": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\empa-vs-placebo_extracted_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 0,
+  "issue_count": 53,
+  "blocking_issue_count": 45,
+  "recognized_fixture": null,
+  "correction": {
+    "status": "generated",
+    "mode": "generic_pdf_mandros",
+    "dataset": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\generic_dataset.json",
+    "path": "C:\\Users\\Rawda Mofed\\Downloads\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\empa-vs-placebo_extracted_corrected.xlsx",
+    "sha256": "a34e6974a90c10d68e75523f4a9173cafa3a9e423eebf2d02273e9adb8af82b3",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "manual_workbook_used": false,
+    "builder_exit_code": 0,
+    "builder_warning": null
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T05:07:34+00:00"
+}

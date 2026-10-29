@@ -1,0 +1,2551 @@
+{
+  "validator": "source_based_numerical_completeness_v1",
+  "inventory_independent_of_excel": true,
+  "inventory_scope": "supplied main article Tables 1-4, Figures 1-7, footnotes and quantified Results text",
+  "expected_finding_count": 177,
+  "status_counts": {
+    "NOT_REPORTED_IN_SOURCE": 1,
+    "SOURCE_CONFLICT": 1,
+    "VERIFIED": 175
+  },
+  "unresolved_count": 1,
+  "complete_and_verified": false,
+  "claim": "not demonstrated",
+  "findings": [
+    {
+      "inventory_id": "INV_OUT_0001_MEDIAN",
+      "finding_key": "OUT_0001_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0001_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0002_MEDIAN",
+      "finding_key": "OUT_0002_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0002_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0003_PROP",
+      "finding_key": "OUT_0003_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0003_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0004_PROP",
+      "finding_key": "OUT_0004_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0004_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0005_PROP",
+      "finding_key": "OUT_0005_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0005_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "derived_from_published_main_article_values",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0006_PROP",
+      "finding_key": "OUT_0006_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0006_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "derived_from_published_main_article_values",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0007_PROP",
+      "finding_key": "OUT_0007_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0007_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0008_PROP",
+      "finding_key": "OUT_0008_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0008_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0009_PROP",
+      "finding_key": "OUT_0009_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0009_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0010_PROP",
+      "finding_key": "OUT_0010_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0010_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0011_PROP",
+      "finding_key": "OUT_0011_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0011_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0012_PROP",
+      "finding_key": "OUT_0012_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0012_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0013_PROP",
+      "finding_key": "OUT_0013_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0013_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0014_PROP",
+      "finding_key": "OUT_0014_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0014_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0015_PROP",
+      "finding_key": "OUT_0015_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0015_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0016_PROP",
+      "finding_key": "OUT_0016_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0016_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0017_PROP",
+      "finding_key": "OUT_0017_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0017_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0018_PROP",
+      "finding_key": "OUT_0018_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0018_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0019_MEDIAN",
+      "finding_key": "OUT_0019_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0019_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0020_MEDIAN",
+      "finding_key": "OUT_0020_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0020_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0021_PROP",
+      "finding_key": "OUT_0021_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0021_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0022_PROP",
+      "finding_key": "OUT_0022_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0022_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0023_MEDIAN",
+      "finding_key": "OUT_0023_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0023_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0024_MEDIAN",
+      "finding_key": "OUT_0024_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0024_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0025_MEDIAN",
+      "finding_key": "OUT_0025_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0025_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0026_MEDIAN",
+      "finding_key": "OUT_0026_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0026_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0027_MEDIAN",
+      "finding_key": "OUT_0027_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0027_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0028_MEDIAN",
+      "finding_key": "OUT_0028_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0028_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0029_MEDIAN",
+      "finding_key": "OUT_0029_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0029_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0030_MEDIAN",
+      "finding_key": "OUT_0030_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0030_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0031_MEDIAN",
+      "finding_key": "OUT_0031_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0031_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0032_MEDIAN",
+      "finding_key": "OUT_0032_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0032_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0033_MEDIAN",
+      "finding_key": "OUT_0033_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0033_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0034_MEDIAN",
+      "finding_key": "OUT_0034_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0034_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0035_MEDIAN",
+      "finding_key": "OUT_0035_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0035_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0036_MEDIAN",
+      "finding_key": "OUT_0036_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0036_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0037_MEDIAN",
+      "finding_key": "OUT_0037_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0037_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0038_MEDIAN",
+      "finding_key": "OUT_0038_MEDIAN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0038_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0039_PROP",
+      "finding_key": "OUT_0039_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0039_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0040_PROP",
+      "finding_key": "OUT_0040_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0040_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0041_PROP",
+      "finding_key": "OUT_0041_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0041_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0042_PROP",
+      "finding_key": "OUT_0042_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0042_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0043_PROP",
+      "finding_key": "OUT_0043_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0043_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0044_PROP",
+      "finding_key": "OUT_0044_PROP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0044_PROP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0045_MEDIAN",
+      "finding_key": "OUT_0045_MEDIAN",
+      "source_page": 5,
+      "source_location": "Primary Outcome paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0045_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0046_MEDIAN",
+      "finding_key": "OUT_0046_MEDIAN",
+      "source_page": 5,
+      "source_location": "Primary Outcome paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0046_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0049_MEDIAN",
+      "finding_key": "OUT_0049_MEDIAN",
+      "source_page": 6,
+      "source_location": "Results text",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0049_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0050_MEDIAN",
+      "finding_key": "OUT_0050_MEDIAN",
+      "source_page": 6,
+      "source_location": "Results text",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0050_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0053_MEDIAN",
+      "finding_key": "OUT_0053_MEDIAN",
+      "source_page": 6,
+      "source_location": "Results text",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0053_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0054_MEDIAN",
+      "finding_key": "OUT_0054_MEDIAN",
+      "source_page": 6,
+      "source_location": "Results text",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0054_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0057_MEDIAN",
+      "finding_key": "OUT_0057_MEDIAN",
+      "source_page": 6,
+      "source_location": "Results text",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0057_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0058_MEDIAN",
+      "finding_key": "OUT_0058_MEDIAN",
+      "source_page": 6,
+      "source_location": "Results text",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0058_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0061_MEDIAN",
+      "finding_key": "OUT_0061_MEDIAN",
+      "source_page": 7,
+      "source_location": "Neutrophil-to-lymphocyte ratio paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0061_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0062_MEDIAN",
+      "finding_key": "OUT_0062_MEDIAN",
+      "source_page": 7,
+      "source_location": "Neutrophil-to-lymphocyte ratio paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0062_MEDIAN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0047",
+      "finding_key": "OUT_0047",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0047"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0048",
+      "finding_key": "OUT_0048",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0048"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0051",
+      "finding_key": "OUT_0051",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0051"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0052",
+      "finding_key": "OUT_0052",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0052"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0055",
+      "finding_key": "OUT_0055",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0055"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0056",
+      "finding_key": "OUT_0056",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0056"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0059",
+      "finding_key": "OUT_0059",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0059"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0060",
+      "finding_key": "OUT_0060",
+      "source_page": 6,
+      "source_location": "Results text; Figures 3-5 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0060"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0063",
+      "finding_key": "OUT_0063",
+      "source_page": 7,
+      "source_location": "Results text; Figure 6 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0063"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0064",
+      "finding_key": "OUT_0064",
+      "source_page": 7,
+      "source_location": "Results text; Figure 6 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0064"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0101",
+      "finding_key": "OUT_0101",
+      "source_page": 7,
+      "source_location": "Results text; Figure 6 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0101"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0102",
+      "finding_key": "OUT_0102",
+      "source_page": 7,
+      "source_location": "Results text; Figure 6 where applicable",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0102"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0103",
+      "finding_key": "OUT_0103",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0103"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0104",
+      "finding_key": "OUT_0104",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0104"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0105_PCT",
+      "finding_key": "OUT_0105_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0105_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0106_PCT",
+      "finding_key": "OUT_0106_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0106_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0107_PCT",
+      "finding_key": "OUT_0107_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0107_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0108_PCT",
+      "finding_key": "OUT_0108_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0108_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0109_PCT",
+      "finding_key": "OUT_0109_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0109_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0110_PCT",
+      "finding_key": "OUT_0110_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0110_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0111_PCT",
+      "finding_key": "OUT_0111_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0111_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0112_PCT",
+      "finding_key": "OUT_0112_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0112_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0113_PCT",
+      "finding_key": "OUT_0113_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0113_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0114_PCT",
+      "finding_key": "OUT_0114_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0114_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0115_PCT",
+      "finding_key": "OUT_0115_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0115_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0116_PCT",
+      "finding_key": "OUT_0116_PCT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0116_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0117_EFF",
+      "finding_key": "OUT_0117_EFF",
+      "source_page": 8,
+      "source_location": "Post Hoc Composite Clinical Endpoint paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0117_EFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0118_EFF",
+      "finding_key": "OUT_0118_EFF",
+      "source_page": 8,
+      "source_location": "Post Hoc Composite Clinical Endpoint paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0118_EFF"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0065",
+      "finding_key": "OUT_0065",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0065"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0066",
+      "finding_key": "OUT_0066",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0066"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0067",
+      "finding_key": "OUT_0067",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0067"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0068",
+      "finding_key": "OUT_0068",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0068"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0069",
+      "finding_key": "OUT_0069",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0069"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0070",
+      "finding_key": "OUT_0070",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0070"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0071",
+      "finding_key": "OUT_0071",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0071"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0072",
+      "finding_key": "OUT_0072",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0072"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0073",
+      "finding_key": "OUT_0073",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0073"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0074",
+      "finding_key": "OUT_0074",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0074"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0075",
+      "finding_key": "OUT_0075",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0075"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0076",
+      "finding_key": "OUT_0076",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0076"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0077",
+      "finding_key": "OUT_0077",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0077"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0078",
+      "finding_key": "OUT_0078",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0078"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0079",
+      "finding_key": "OUT_0079",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0079"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0080",
+      "finding_key": "OUT_0080",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0080"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0081",
+      "finding_key": "OUT_0081",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0081"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0082",
+      "finding_key": "OUT_0082",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0082"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0083",
+      "finding_key": "OUT_0083",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0083"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0084",
+      "finding_key": "OUT_0084",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0084"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0085",
+      "finding_key": "OUT_0085",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0085"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0086",
+      "finding_key": "OUT_0086",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0086"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0087_PCT",
+      "finding_key": "OUT_0087_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0087_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0088_PCT",
+      "finding_key": "OUT_0088_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0088_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0089_PCT",
+      "finding_key": "OUT_0089_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0089_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0090_PCT",
+      "finding_key": "OUT_0090_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0090_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0091_PCT",
+      "finding_key": "OUT_0091_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0091_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0092_PCT",
+      "finding_key": "OUT_0092_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0092_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0093_PCT",
+      "finding_key": "OUT_0093_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0093_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0094_PCT",
+      "finding_key": "OUT_0094_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0094_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0095_PCT",
+      "finding_key": "OUT_0095_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0095_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0096_PCT",
+      "finding_key": "OUT_0096_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0096_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0097_PCT",
+      "finding_key": "OUT_0097_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0097_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0098_PCT",
+      "finding_key": "OUT_0098_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0098_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0099_PCT",
+      "finding_key": "OUT_0099_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0099_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_OUT_0100_PCT",
+      "finding_key": "OUT_0100_PCT",
+      "source_page": 7,
+      "source_location": "Tolerability and Safety Data paragraph",
+      "evidence_type": "published main-article table/text/figure",
+      "expected_components": "reported estimate, uncertainty, sample scope and source locator",
+      "extraction_ids": [
+        "OUT_0100_PCT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_AGE",
+      "finding_key": "TEST_BASE_AGE",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_AGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_SEX",
+      "finding_key": "TEST_BASE_SEX",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_SEX"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_COMORB",
+      "finding_key": "TEST_BASE_COMORB",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_COMORB"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_SEVERE_SEPSIS",
+      "finding_key": "TEST_BASE_SEVERE_SEPSIS",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_SEVERE_SEPSIS"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_SEPSIS3",
+      "finding_key": "TEST_BASE_SEPSIS3",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_SEPSIS3"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_CURB65",
+      "finding_key": "TEST_BASE_CURB65",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_CURB65"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_PRIOR_STATIN",
+      "finding_key": "TEST_BASE_PRIOR_STATIN",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_PRIOR_STATIN"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_CRP",
+      "finding_key": "TEST_BASE_CRP",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_CRP"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_LACTATE",
+      "finding_key": "TEST_BASE_LACTATE",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_LACTATE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_CREAT",
+      "finding_key": "TEST_BASE_CREAT",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_CREAT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_CK",
+      "finding_key": "TEST_BASE_CK",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_CK"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_BILI",
+      "finding_key": "TEST_BASE_BILI",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_BILI"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_ALT",
+      "finding_key": "TEST_BASE_ALT",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_ALT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_CHOL",
+      "finding_key": "TEST_BASE_CHOL",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_CHOL"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_SOFA_BASE",
+      "finding_key": "TEST_BASE_SOFA_BASE",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_SOFA_BASE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_ABX1",
+      "finding_key": "TEST_BASE_ABX1",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_ABX1"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_ABX2",
+      "finding_key": "TEST_BASE_ABX2",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_ABX2"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_BASE_ABX3",
+      "finding_key": "TEST_BASE_ABX3",
+      "source_page": 6,
+      "source_location": "Table 2",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_BASE_ABX3"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_FMLP_BASE",
+      "finding_key": "TEST_FMLP_BASE",
+      "source_page": 5,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_FMLP_BASE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_FMLP_CHANGE",
+      "finding_key": "TEST_FMLP_CHANGE",
+      "source_page": 6,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_FMLP_CHANGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_PMA_BASE",
+      "finding_key": "TEST_PMA_BASE",
+      "source_page": 6,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_PMA_BASE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_PMA_CHANGE",
+      "finding_key": "TEST_PMA_CHANGE",
+      "source_page": 6,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_PMA_CHANGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_CHEM_BASE",
+      "finding_key": "TEST_CHEM_BASE",
+      "source_page": 6,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_CHEM_BASE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_CHEM_CHANGE",
+      "finding_key": "TEST_CHEM_CHANGE",
+      "source_page": 6,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_CHEM_CHANGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_NE_BASE",
+      "finding_key": "TEST_NE_BASE",
+      "source_page": 6,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_NE_BASE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_NE_CHANGE",
+      "finding_key": "TEST_NE_CHANGE",
+      "source_page": 6,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_NE_CHANGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_NLR_CHANGE",
+      "finding_key": "TEST_NLR_CHANGE",
+      "source_page": 7,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_NLR_CHANGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SOFA_CHANGE",
+      "finding_key": "TEST_SOFA_CHANGE",
+      "source_page": 7,
+      "source_location": "Results text/Figure",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SOFA_CHANGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_LOS",
+      "finding_key": "TEST_LOS",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_LOS"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_READMIT180",
+      "finding_key": "TEST_READMIT180",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_READMIT180"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_READMIT365",
+      "finding_key": "TEST_READMIT365",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_READMIT365"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_MORT30",
+      "finding_key": "TEST_MORT30",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_MORT30"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_MORT90",
+      "finding_key": "TEST_MORT90",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_MORT90"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_MORT180",
+      "finding_key": "TEST_MORT180",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_MORT180"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_MORT365",
+      "finding_key": "TEST_MORT365",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_MORT365"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_CRP_D4",
+      "finding_key": "TEST_T3_CRP_D4",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_CRP_D4"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_CREAT_D4",
+      "finding_key": "TEST_T3_CREAT_D4",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_CREAT_D4"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_CK_D4",
+      "finding_key": "TEST_T3_CK_D4",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_CK_D4"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_BILI_D4",
+      "finding_key": "TEST_T3_BILI_D4",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_BILI_D4"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_ALT_D4",
+      "finding_key": "TEST_T3_ALT_D4",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_ALT_D4"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_CHOL_D4",
+      "finding_key": "TEST_T3_CHOL_D4",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_CHOL_D4"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_CRP_D7",
+      "finding_key": "TEST_T3_CRP_D7",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_CRP_D7"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_CREAT_D7",
+      "finding_key": "TEST_T3_CREAT_D7",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_CREAT_D7"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_CK_D7",
+      "finding_key": "TEST_T3_CK_D7",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_CK_D7"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_BILI_D7",
+      "finding_key": "TEST_T3_BILI_D7",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_BILI_D7"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_T3_ALT_D7",
+      "finding_key": "TEST_T3_ALT_D7",
+      "source_page": 8,
+      "source_location": "Table 3",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_T3_ALT_D7"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_NLR_WITHIN_SIM",
+      "finding_key": "TEST_NLR_WITHIN_SIM",
+      "source_page": 7,
+      "source_location": "NLR Results paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_NLR_WITHIN_SIM"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_NLR_WITHIN_PBO",
+      "finding_key": "TEST_NLR_WITHIN_PBO",
+      "source_page": 7,
+      "source_location": "NLR Results paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_NLR_WITHIN_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_READMISSION_FREE_TIME",
+      "finding_key": "TEST_READMISSION_FREE_TIME",
+      "source_page": 7,
+      "source_location": "Clinical Outcomes paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_READMISSION_FREE_TIME"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_HFS180",
+      "finding_key": "TEST_HFS180",
+      "source_page": 8,
+      "source_location": "Post Hoc Composite Clinical Endpoint paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_HFS180"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_HFS365",
+      "finding_key": "TEST_HFS365",
+      "source_page": 8,
+      "source_location": "Post Hoc Composite Clinical Endpoint paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_HFS365"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SEPSIS3_NET_BASE",
+      "finding_key": "TEST_SEPSIS3_NET_BASE",
+      "source_page": 8,
+      "source_location": "Severity according to Sepsis-3 paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SEPSIS3_NET_BASE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SEPSIS3_NET_CHANGE",
+      "finding_key": "TEST_SEPSIS3_NET_CHANGE",
+      "source_page": 8,
+      "source_location": "Severity according to Sepsis-3 paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SEPSIS3_NET_CHANGE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SEPSIS3_CHEM_BASE",
+      "finding_key": "TEST_SEPSIS3_CHEM_BASE",
+      "source_page": 8,
+      "source_location": "Severity according to Sepsis-3 paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SEPSIS3_CHEM_BASE"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SEPSIS3_CHEM_WITHIN_SIM",
+      "finding_key": "TEST_SEPSIS3_CHEM_WITHIN_SIM",
+      "source_page": 8,
+      "source_location": "Severity according to Sepsis-3 paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SEPSIS3_CHEM_WITHIN_SIM"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SEPSIS3_CHEM_WITHIN_PBO",
+      "finding_key": "TEST_SEPSIS3_CHEM_WITHIN_PBO",
+      "source_page": 8,
+      "source_location": "Severity according to Sepsis-3 paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SEPSIS3_CHEM_WITHIN_PBO"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SEPSIS3_IMPROVEMENT",
+      "finding_key": "TEST_SEPSIS3_IMPROVEMENT",
+      "source_page": 8,
+      "source_location": "Severity according to Sepsis-3 paragraph",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SEPSIS3_IMPROVEMENT"
+      ],
+      "status": "VERIFIED",
+      "source_status": "published_main_article_exact",
+      "conflict_id": null,
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_TEST_SOFA_TABLE4_CONFLICT",
+      "finding_key": "TEST_SOFA_TABLE4_CONFLICT",
+      "source_page": 9,
+      "source_location": "Table 4",
+      "evidence_type": "published statistical comparison",
+      "expected_components": "test type, p operator/value, nominal status and source locator",
+      "extraction_ids": [
+        "TEST_SOFA_TABLE4_CONFLICT"
+      ],
+      "status": "SOURCE_CONFLICT",
+      "source_status": "published_main_article_exact",
+      "conflict_id": "CONFLICT_SOFA_P",
+      "missing_extraction_ids": []
+    },
+    {
+      "inventory_id": "INV_SUPPLEMENT_NOT_SUPPLIED",
+      "finding_key": "online supplementary results",
+      "source_page": null,
+      "source_location": "online supplement referenced but not supplied",
+      "evidence_type": "document availability",
+      "expected_components": "none",
+      "extraction_ids": [],
+      "status": "NOT_REPORTED_IN_SOURCE",
+      "source_status": "supplementary_not_supplied",
+      "missing_extraction_ids": []
+    }
+  ],
+  "safeguard": "Missing or unavailable source values remain blank; the validator never generates numbers."
+}

@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-10-29",
+  "workbook": "empa-vs-placebo_extracted_corrected.xlsx",
+  "sha256": "a34e6974a90c10d68e75523f4a9173cafa3a9e423eebf2d02273e9adb8af82b3",
+  "sheets": 14,
+  "outcome_records": 119,
+  "statistical_test_records": 1,
+  "between_arm_tests": 1,
+  "within_arm_subgroup_tests": 0,
+  "baseline_records": 6,
+  "efficacy_records": 41,
+  "process_records": 0,
+  "safety_records": 78,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 0,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Generated from the supplied PDF and Mandros workbook only. Exact matches are marked source-checked; all other records remain REQUIRES_REVIEW and are not silently corrected."
+}

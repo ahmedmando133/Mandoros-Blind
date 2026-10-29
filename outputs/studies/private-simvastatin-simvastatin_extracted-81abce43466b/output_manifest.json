@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-10-29",
+  "workbook": "simvastatin_extracted_corrected.xlsx",
+  "sha256": "b4cf68587bfa7bf26c20479e69a7f3a1769f68fd95c9b3d78476d621f50030a0",
+  "sheets": 14,
+  "outcome_records": 64,
+  "statistical_test_records": 58,
+  "between_arm_tests": 54,
+  "within_arm_subgroup_tests": 0,
+  "baseline_records": 54,
+  "efficacy_records": 28,
+  "process_records": 0,
+  "safety_records": 36,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 0,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Source-adjudicated against the supplied Simvastatin main article. Medians/IQRs, counts/percentages, timepoint-specific sample sizes, explicit statistical tests and source locations were corrected without inventing unavailable supplementary data."
+}

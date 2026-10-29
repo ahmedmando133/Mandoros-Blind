@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-10-29",
+  "workbook": "mandros_input_corrected.xlsx",
+  "sha256": "7bb10b45f976b8d106354d704661b3af20c4b8a4eccc4c5d71698a987ac7f750",
+  "sheets": 14,
+  "outcome_records": 7,
+  "statistical_test_records": 2,
+  "between_arm_tests": 1,
+  "within_arm_subgroup_tests": 0,
+  "baseline_records": 34,
+  "efficacy_records": 2,
+  "process_records": 0,
+  "safety_records": 5,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 35,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Generated from the supplied PDF and Mandros workbook only. Exact matches are marked source-checked; all other records remain REQUIRES_REVIEW and are not silently corrected."
+}

@@ -1,0 +1,347 @@
+{
+  "system": "Mandros Blind",
+  "version": "0.1.0",
+  "source_sha256": "3d2fd2eeada56df3ba6f3d03fbdd8e1805b11b2c1491c322d79b4f0ce5b324b7",
+  "input_workbook_sha256": "94981596d5ce67fea0e65848ec3e655530bb86a2571fe1666bc48e215017263c",
+  "recognized_fixture": "metformin-dppos-dc11-1299",
+  "decision": "REJECT",
+  "score": 38,
+  "score_max": 100,
+  "domain_scores": {
+    "numerical_accuracy": 13,
+    "statistical_interpretation": 5,
+    "pico_eligibility": 10,
+    "outcome_completeness": 4,
+    "duplication_integrity": 1,
+    "structure_traceability": 5
+  },
+  "blocking_issue_count": 24,
+  "issue_count": 32,
+  "issues": [
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 2,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 2,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 3,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 4,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 4,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 5,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 6,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "NON_ATOMIC_P_VALUE",
+      "severity": "major",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 6,
+      "message": "p-value combines the comparison operator and number in one cell.",
+      "action": "Split p_operator and numeric p_value.",
+      "blocking": false
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 7,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 8,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 9,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 10,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 11,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 12,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 13,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 14,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 15,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 16,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 17,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 18,
+      "message": "Outcome references 'ARM_MET_850', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 19,
+      "message": "Outcome references 'ARM_MET_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 20,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 21,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "FABRICATED_BASELINE",
+      "severity": "critical",
+      "domain": "baseline",
+      "sheet": "Baseline Characteristics",
+      "row": null,
+      "message": "The workbook converts year-9 visit counts into 100% Caucasian baseline records; the paper does not report this.",
+      "action": "Delete the records and leave baseline unreported for this article.",
+      "blocking": true
+    },
+    {
+      "code": "FABRICATED_BASELINE",
+      "severity": "critical",
+      "domain": "baseline",
+      "sheet": "Baseline Characteristics",
+      "row": null,
+      "message": "The workbook converts year-9 visit counts into 100% Caucasian baseline records; the paper does not report this.",
+      "action": "Delete the records and leave baseline unreported for this article.",
+      "blocking": true
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 2,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 3,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_SAFETY_DOMAIN",
+      "severity": "critical",
+      "domain": "safety",
+      "sheet": "Safety Outcomes",
+      "row": null,
+      "message": "No usable safety domain was recognized in the extraction workbook.",
+      "action": "Verify the source article and extract every reported safety result as an arm-specific observation.",
+      "blocking": true
+    },
+    {
+      "code": "MISSING_ASIAN_BMI_EXCEPTION",
+      "severity": "major",
+      "domain": "eligibility",
+      "sheet": "Eligibility",
+      "row": null,
+      "message": "The BMI >=22 kg/m^2 Asian American exception is missing.",
+      "action": "Add a separate scoped inclusion criterion.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_EXCLUSIONS",
+      "severity": "major",
+      "domain": "eligibility",
+      "sheet": "Eligibility",
+      "row": null,
+      "message": "Exclusion criteria are absent.",
+      "action": "Add prior diabetes and participation/weight-affecting condition or medication exclusions.",
+      "blocking": false
+    },
+    {
+      "code": "PLACEBO_TIMEPOINT_VALUE_MIXUP",
+      "severity": "critical",
+      "domain": "efficacy",
+      "sheet": "Outcomes",
+      "row": null,
+      "message": "Placebo 0.43 +/- 4.7% is the year-1 value, not year 2; year 2 is 0.02 +/- 5.5%.",
+      "action": "Replace the record and preserve both timepoints separately.",
+      "blocking": true
+    },
+    {
+      "code": "MISSING_TEN_PERCENT_WEIGHT_LOSS",
+      "severity": "major",
+      "domain": "efficacy",
+      "sheet": "Outcomes",
+      "row": null,
+      "message": "The >=10% weight-loss outcomes are missing.",
+      "action": "Add year-1 and year-2 arm-specific percentages.",
+      "blocking": false
+    }
+  ],
+  "limitations": [
+    "A structural pass is not proof of scientific correctness.",
+    "For an unseen trial, scientific correction requires a source-grounded truth bundle or independent human/AI adjudication.",
+    "PRISMA compliance is assessed at systematic-review level, not as a property of a single RCT extraction."
+  ]
+}

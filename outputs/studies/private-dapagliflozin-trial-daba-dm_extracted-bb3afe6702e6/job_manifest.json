@@ -1,0 +1,39 @@
+{
+  "study_id": "private-dapagliflozin-trial-daba-dm_extracted",
+  "discovery_source": "recursive discovery",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\dabagliflozin RCT1.pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\daba DM_extracted.xlsx",
+  "input_hashes": {
+    "pdf": "f9b654de9369fd59c77e932e3ba891878b5ccbf3f9be6f427b10eab904ec9333",
+    "workbook": "df3a610c8ba0fd3296c7894ae54cbc6c44ee633c126c753a8ed51c339a433061"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:56:41+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6\\daba-dm_extracted_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 0,
+  "issue_count": 509,
+  "blocking_issue_count": 437,
+  "recognized_fixture": "dapagliflozin-monotherapy-dc10-0612-v1",
+  "correction": {
+    "status": "generated",
+    "mode": "versioned_truth_bundle_builder",
+    "dataset": "dapagliflozin_workbook_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6\\daba-dm_extracted_corrected.xlsx",
+    "sha256": "629b7e446e6d2f46192e4ec2500c7e2dd3be4511481d8d2d05e8c491310b4c57",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 14
+    },
+    "builder_exit_code": 3221226505,
+    "builder_warning": "The exporter exited non-zero after writing a workbook that passed reopen verification."
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T11:57:39+00:00"
+}

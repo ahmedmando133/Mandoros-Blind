@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-10-29",
+  "workbook": "daba-dm_extracted_corrected.xlsx",
+  "sha256": "629b7e446e6d2f46192e4ec2500c7e2dd3be4511481d8d2d05e8c491310b4c57",
+  "sheets": 14,
+  "outcome_records": 257,
+  "statistical_test_records": 6,
+  "between_arm_tests": 4,
+  "within_arm_subgroup_tests": 0,
+  "baseline_records": 72,
+  "efficacy_records": 153,
+  "process_records": 0,
+  "safety_records": 104,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 0,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Source-adjudicated against the supplied Ferrannini et al. 2010 main article and normalized from the current Mandros extraction; no supplementary result was invented."
+}

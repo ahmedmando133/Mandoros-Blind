@@ -1,0 +1,292 @@
+{
+  "snapshot": {
+    "policy_id": "mandros-blind-optimal-rct-extraction-v1",
+    "automatic_application": true,
+    "prompt_version": "1.1.0",
+    "statistics_version": "1.0.0",
+    "phase1_policy_version": "1.6.0",
+    "system_contract_version": "1.9.0",
+    "files": {
+      "prompt": {
+        "path": "standards\\optimal_extraction_prompt_v1.md",
+        "sha256": "c2bb05cc9265c0b1e71ab66895582ef6a81c07687cf85204512abd0a3008307a"
+      },
+      "statistics": {
+        "path": "standards\\clinical_trial_statistics_v1.json",
+        "sha256": "70f68d54b9c498d46cdaccbbd2ab2ce8b2e92136bfe93ea54a98ea26c8c707c4"
+      },
+      "phase1_policy": {
+        "path": "standards\\phase1_policy_v1.json",
+        "sha256": "cf26aa57e55576f118aef3462c9e54e0d16d979ec8f51c744572f2762c5ce38c"
+      },
+      "system_contract": {
+        "path": "standards\\system_contract_v1.json",
+        "sha256": "1360a6c28b15ba73cdacf396702178ba6547387f2c14c635ed38fe307b3da17c"
+      },
+      "skill": {
+        "path": "skills\\mandoros-blind-phase1-statistical-integrity\\SKILL.md",
+        "sha256": "e69e3ddbc0af4ecc41fa4ca6d4a3465431275ad353258056175f13f7df8ffafc"
+      }
+    }
+  },
+  "issues": [
+    {
+      "code": "POLICY_NO_INDEPENDENT_SOURCE_INVENTORY",
+      "severity": "critical",
+      "blocking": true,
+      "message": "Scientific completeness cannot be validated without a PDF-first inventory independent of the Excel output."
+    },
+    {
+      "code": "POLICY_GENERIC_DRAFT_ONLY",
+      "severity": "critical",
+      "blocking": true,
+      "message": "The generic adapter normalized Mandros rows but did not independently extract and reconcile the full PDF; export is draft-only."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_001_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_002_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_003_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_004_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_007_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_008_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_009_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_010_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_011_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_012_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_013_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_014_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_015_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_016_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_017_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_018_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_019_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_020_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_021_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_022_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_023_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_024_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_025_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_026_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_027_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_028_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_029_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_030_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_031_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_032_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_033_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_034_MEAN",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_005_CHG",
+      "message": "Record references unknown arm_id 'ARM_ORL_120'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_036",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    },
+    {
+      "code": "POLICY_INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "blocking": true,
+      "record_id": "OUT_036_PCT",
+      "message": "Record references unknown arm_id 'ARM_ORL_PLA'."
+    }
+  ],
+  "blocking_issue_count": 37
+}

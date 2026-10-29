@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0.0",
+  "created": "2026-10-19",
+  "privacy": "Private source files are stored locally under data/private and excluded from Git.",
+  "files": [
+    {"role":"source_pdf","local_name":"metformin/source.pdf","sha256":"3d2fd2eeada56df3ba6f3d03fbdd8e1805b11b2c1491c322d79b4f0ce5b324b7"},
+    {"role":"mandros_output","local_name":"metformin/mandros_input.xlsx","sha256":"94981596d5ce67fea0e65848ec3e655530bb86a2571fe1666bc48e215017263c"},
+    {"role":"manual_benchmark","local_name":"metformin/manual_benchmark.xlsx","sha256":"9a426ea589836f2459432fc4c21f83912abc2a228169d1d0dc83981511ac6954"},
+    {"role":"phase1_policy_source","local_name":"references/phase1_policy_source.json","sha256":"302c80199fb1977bcd73ee8b3f6854eaced26458105e07caca5f22b7f2da4752"},
+    {"role":"phase1_prompt_source","local_name":"references/phase1_prompt_source.docx","sha256":"5ad7ab54074858d85bebf4ced384c6d3c06c5e5f5efad1d666b723970781f781"},
+    {"role":"prisma_checklist","local_name":"references/PRISMA_2020_checklist.pdf","sha256":"2eedbd5452741f9615307a0bce21a8198c0597ce2a0a8a0fd7e140d64b08c625"},
+    {"role":"prisma_explanation","local_name":"references/PRISMA_explanation.pdf","sha256":"e00513d3fbe9df24099a78d5d96ff69d9229891849a0e76c521064b37f53bffc"},
+    {"role":"prisma_statement","local_name":"references/PRISMA_statement.pdf","sha256":"44e63dd06d3475088d883e17cb5e468336b0c2fd47f34b369363fa7e0bf28a11"},
+    {"role":"source_pdf","study_id":"orlistat-rct-2024","local_name":"orlistat/source.pdf","sha256":"a7e26c7c5b23818edbe38f140950c5e91cdeb254ff27f209b0952861bed189d3"},
+    {"role":"mandros_output","study_id":"orlistat-rct-2024","local_name":"orlistat/mandros_input.xlsx","sha256":"cce880771be33158bdec7748ea22705e9509c43b728f7cf7267fe3b1232ccc58"},
+    {"role":"manual_layout_reference","study_id":"orlistat-rct-2024","local_name":"orlistat/manual_layout_reference.xlsx","sha256":"9a426ea589836f2459432fc4c21f83912abc2a228169d1d0dc83981511ac6954"}
+  ]
+}
+

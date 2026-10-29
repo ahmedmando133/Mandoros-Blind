@@ -1,0 +1,747 @@
+{
+  "system": "Mandros Blind",
+  "version": "0.1.0",
+  "source_sha256": "908c285c12b52e46a2bce1aea0f669a283006fecb12cd4a231d76ad57054f14e",
+  "input_workbook_sha256": "cce880771be33158bdec7748ea22705e9509c43b728f7cf7267fe3b1232ccc58",
+  "recognized_fixture": null,
+  "decision": "REJECT",
+  "score": 0,
+  "score_max": 100,
+  "domain_scores": {
+    "numerical_accuracy": 0,
+    "statistical_interpretation": 0,
+    "pico_eligibility": 0,
+    "outcome_completeness": 0,
+    "duplication_integrity": 0,
+    "structure_traceability": 0
+  },
+  "blocking_issue_count": 38,
+  "issue_count": 72,
+  "issues": [
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 2,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 3,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 4,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 5,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 6,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 7,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 8,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 9,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 10,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 11,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 12,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 13,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 14,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 15,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 16,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 17,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 18,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 19,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 20,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 21,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 22,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 23,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 24,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 25,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 26,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 27,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 28,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 29,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 30,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 31,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 32,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 33,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 34,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 35,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 36,
+      "message": "Outcome references 'ARM_ORL_120', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "INVALID_ARM_REFERENCE",
+      "severity": "critical",
+      "domain": "integrity",
+      "sheet": "Outcomes",
+      "row": 37,
+      "message": "Outcome references 'ARM_ORL_PLA', which is absent from Arms.",
+      "action": "Replace with a canonical arm_id after source verification.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 38,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "EVENT_COUNT_PERCENT_UNIT",
+      "severity": "critical",
+      "domain": "statistics",
+      "sheet": "Outcomes",
+      "row": 39,
+      "message": "A numerical patient/event count is labeled with the percent unit.",
+      "action": "Use a count/participants unit for the event count and keep the printed percentage in its separate percentage field.",
+      "blocking": true
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 2,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 3,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 4,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 5,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 6,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 7,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 8,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 9,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 10,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 11,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 12,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 13,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 14,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 15,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 16,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 17,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 18,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 19,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 20,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 21,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 22,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 23,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 24,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 25,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 26,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 27,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 28,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 29,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 30,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 31,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 32,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 33,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 34,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    },
+    {
+      "code": "MISSING_BASELINE_SOURCE_PAGE",
+      "severity": "major",
+      "domain": "provenance",
+      "sheet": "Baseline Characteristics",
+      "row": 35,
+      "message": "Baseline record has no PDF page locator.",
+      "action": "Recover the page/table locator or mark the record for manual review.",
+      "blocking": false
+    }
+  ],
+  "limitations": [
+    "A structural pass is not proof of scientific correctness.",
+    "For an unseen trial, scientific correction requires a source-grounded truth bundle or independent human/AI adjudication.",
+    "PRISMA compliance is assessed at systematic-review level, not as a property of a single RCT extraction."
+  ]
+}

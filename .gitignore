@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+node_modules/
+tmp/
+data/private/**
+!data/private/.gitkeep
+outputs/uploads/
+outputs/runs/
+outputs/*.inspect.ndjson
+outputs/*_preview.png
+*.log
+

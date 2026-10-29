@@ -1,0 +1,120 @@
+{
+  "contract_id": "mandros-blind-system-v1",
+  "version": "1.9.0",
+  "automatic_extraction_skill": {
+    "policy_id": "mandros-blind-optimal-rct-extraction-v1",
+    "apply_on_every_trial": true,
+    "user_invocation_required": false,
+    "skill_file": "skills/mandoros-blind-phase1-statistical-integrity/SKILL.md",
+    "system_prompt": "standards/optimal_extraction_prompt_v1.md",
+    "statistical_reference": "standards/clinical_trial_statistics_v1.json",
+    "runtime_report": "extraction_policy_report.json",
+    "conflict_rule": "Preserve the contradiction and request human adjudication before changing scientific content.",
+    "external_code_rule": "External repositories may inform additive design patterns only; do not import models, datasets, dependencies or prompts without compatibility, license and regression review."
+  },
+  "future_study_input_contract": {
+    "required_files": ["original_rct_pdf", "mandros_extraction_xlsx"],
+    "manual_workbook_required": false,
+    "pairing_rule": "Place the PDF and Mandros Excel in the same study folder under data/.",
+    "output_rule": "Create one normalized corrected workbook in the study's stable directory under outputs/studies/.",
+    "unsupported_value_rule": "Do not invent or silently replace unsupported values; mark them REQUIRES_REVIEW."
+  },
+  "required_entities": ["Studies", "Arms", "Eligibility", "Baseline", "Outcomes", "Statistical Tests", "Statistical Methods", "Document Inventory", "Source Conflicts", "Phase 2 Readiness", "Provenance", "Validation Log"],
+  "master_sections": ["Study details", "Arms and dosing", "Inclusion", "Exclusion", "Baseline", "Efficacy outcomes", "Safety outcomes", "Statistical tests"],
+  "atomicity": {
+    "one_row_one_observation": true,
+    "value_unit_separate": true,
+    "operator_value_separate": true,
+    "comparison_operators_use_separate_columns": ["less_than", "equal_to", "greater_than"],
+    "excel_operator_cells_use_literal_symbols": {"less_than": "<", "equal_to": "=", "greater_than": ">"},
+    "excel_operator_columns_precede_numeric_value_and_unit": true,
+    "ranges_use_minimum_and_maximum": true,
+    "estimate_dispersion_separate": true,
+    "p_operator_value_separate": true,
+    "p_value_stored_once_per_test": true,
+    "between_arm_tests_linked_by_comparison_id": true,
+    "sample_derived_proportion_measure": "sample_proportion",
+    "outcome_defining_characteristics_follow_outcome_column": true,
+    "threshold_fields_immediately_follow_outcome": true,
+    "baseline_characteristic_and_category_separate": true,
+    "sex_schema": {"characteristic": "sex", "subgroup_value": "male_or_female"},
+    "race_schema": {"characteristic": "race", "subgroup_value": "reported_race_category"},
+    "sample_size_event_count_denominator_separate": true,
+    "paired_count_and_proportion_same_observation_row": true,
+    "paired_count_and_proportion_fields": ["event_count", "event_count_unit", "event_denominator", "value", "percentage_unit"],
+    "paired_count_and_proportion_rule": "When an article cell reports n (%), keep one arm-outcome or arm-baseline observation row; store n, denominator, percentage value, and percentage unit in separate cells.",
+    "unprinted_percentage_not_derived": true,
+    "population_counts_separate": ["n_randomized", "n_baseline", "n_analyzed", "n_analyzed_timepoint", "event_count", "event_denominator"],
+    "mean_sd_iqr_components_separate": true,
+    "median_iqr_never_populates_confidence_interval": true,
+    "count_unit_never_percent": true,
+    "source_location_separate_from_source_page": true,
+    "statistical_test_nominal_or_adjusted_status_explicit": true,
+    "estimate_type_explicit": true,
+    "source_status_explicit": true,
+    "source_conflict_id_explicit": true,
+    "canonical_record_flag_explicit": true,
+    "meta_analysis_inclusion_flag_explicit": true,
+    "independent_study_id_explicit": true,
+    "estimand_family_explicit": true,
+    "meta_analysis_eligibility_values": ["READY", "REQUIRES_REVIEW", "NOT_POOLABLE"],
+    "meta_analysis_eligibility_reason_explicit": true,
+    "include_in_meta_analysis_true_only_when_ready": true,
+    "different_estimands_not_pooled": true,
+    "missing_variance_not_invented": true,
+    "one_trial_one_independent_study": true,
+    "repeated_source_occurrences_not_double_counted": true,
+    "reported_statistical_methods_preserved": true,
+    "unavailable_supplementary_results_not_created": true,
+    "figure_only_values_not_silently_digitized": true
+  },
+  "source_completeness": {
+    "inventory_must_be_independent_of_excel": true,
+    "inventory_scope": ["tables", "figures", "captions", "footnotes", "results_text"],
+    "required_statuses": ["VERIFIED", "MISSING_FROM_EXTRACTION", "PRESENT_BUT_INCOMPLETE", "STATISTICAL_TYPE_MISMATCH", "NUMERICAL_MISMATCH", "SOURCE_CONFLICT", "NOT_REPORTED_IN_SOURCE", "REQUIRES_MANUAL_REVIEW"],
+    "outcome_name_alone_is_not_complete": true,
+    "targeted_retry_only": true,
+    "unreported_values_remain_blank": true,
+    "hundred_percent_claim_requires_independent_complete_validation": true
+  },
+  "source_identity_tuple": {
+    "required_fields": ["study", "outcome", "arm_or_comparator", "timepoint", "analysis_population", "analyzed_n_or_denominator", "statistical_type", "value", "unit", "source_locator"],
+    "page_level_number_match_is_sufficient": false,
+    "mismatch_is_blocking": true
+  },
+  "primary_endpoint_gate": {
+    "required": true,
+    "components": ["outcome_definition", "scheduled_timepoint", "metric", "arm", "analysis_population", "analyzed_n", "uncertainty_type", "value", "unit", "source_locator"],
+    "failure_state": "SCIENTIFIC_VALIDATION_FAIL",
+    "draft_export_allowed": true
+  },
+  "statistical_semantics": {
+    "sd_and_se_distinct": true,
+    "odds_ratio_label": "ODDS_RATIO",
+    "hazard_ratio_label": "HAZARD_RATIO",
+    "log_transformed_relative_percentage_change_label": "LOG_TRANSFORMED_RELATIVE_PERCENTAGE_CHANGE",
+    "hierarchical_testing_restrictions_preserved": true,
+    "confidence_interval_does_not_create_p_value": true
+  },
+  "missingness": {"missing_value": null, "forbidden_markers": ["NA", "N/A", "not available", "-"]},
+  "gates": [
+    "pdf_inventory_complete",
+    "arm_references_valid",
+    "sample_scope_not_conflated",
+    "eligibility_complete",
+    "outcome_timepoint_explicit",
+    "safety_inventory_complete",
+    "source_locator_present",
+    "source_text_match_or_manual_adjudication",
+    "document_inventory_complete_for_supplied_files",
+    "source_conflicts_flagged_without_silent_resolution",
+    "meta_analysis_inclusion_is_explicit",
+    "duplicate_key_rejected",
+    "rob2_domain_status_explicit"
+    ,"source_identity_tuple_verified"
+    ,"primary_endpoint_verified"
+    ,"eligibility_evidence_from_eligibility_section"
+  ],
+  "safe_automation_rule": "Never silently correct scientific content unless the replacement value is source-grounded and independently validated."
+}
+

@@ -1,0 +1,30 @@
+{
+  "generated_on": "2026-10-29",
+  "workbook": "empa-vs-placebo_extracted_corrected_revalidated.xlsx",
+  "sha256": "9d15002524123b5b255595ec457c26877f1594850f60a87e3dd1dc12180706ea",
+  "sheets": 14,
+  "outcome_records": 340,
+  "statistical_test_records": 26,
+  "between_arm_tests": 26,
+  "within_arm_subgroup_tests": 0,
+  "baseline_records": 31,
+  "efficacy_records": 92,
+  "process_records": 107,
+  "safety_records": 141,
+  "duplicate_record_ids": 0,
+  "invalid_arm_references": 0,
+  "combined_operator_columns": 0,
+  "excel_operator_display": "literal symbols in separate cells",
+  "excel_operator_order": [
+    "<",
+    "=",
+    ">",
+    "value",
+    "unit"
+  ],
+  "excel_boolean_display_cells": 0,
+  "p_values_in_outcomes": 0,
+  "p_values_stored_once_in_statistical_tests": true,
+  "proportion_measure_label": "sample_proportion",
+  "verification": "Source-adjudicated against the supplied Rosenstock et al. 2015 main article. Arm-level HbA1c responder percentages, odds ratios, eGFR mean changes, SDs, analyzed Ns, Table 2 safety rows and directly printed Figure 2 sample sizes were independently inventoried; unavailable supplementary values were not invented."
+}

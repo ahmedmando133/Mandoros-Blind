@@ -1,0 +1,12 @@
+{
+  "validator": "source_based_numerical_completeness_v1",
+  "inventory_independent_of_excel": false,
+  "inventory_scope": "not_declared",
+  "expected_finding_count": 0,
+  "status_counts": {},
+  "unresolved_count": 0,
+  "complete_and_verified": false,
+  "claim": "not demonstrated",
+  "findings": [],
+  "safeguard": "Missing or unavailable source values remain blank; the validator never generates numbers."
+}

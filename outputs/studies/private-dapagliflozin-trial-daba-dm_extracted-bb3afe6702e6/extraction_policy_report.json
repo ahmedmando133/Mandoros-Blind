@@ -1,0 +1,41 @@
+{
+  "snapshot": {
+    "policy_id": "mandros-blind-optimal-rct-extraction-v1",
+    "automatic_application": true,
+    "prompt_version": "1.1.0",
+    "statistics_version": "1.0.0",
+    "phase1_policy_version": "1.6.0",
+    "system_contract_version": "1.9.0",
+    "files": {
+      "prompt": {
+        "path": "standards\\optimal_extraction_prompt_v1.md",
+        "sha256": "c2bb05cc9265c0b1e71ab66895582ef6a81c07687cf85204512abd0a3008307a"
+      },
+      "statistics": {
+        "path": "standards\\clinical_trial_statistics_v1.json",
+        "sha256": "70f68d54b9c498d46cdaccbbd2ab2ce8b2e92136bfe93ea54a98ea26c8c707c4"
+      },
+      "phase1_policy": {
+        "path": "standards\\phase1_policy_v1.json",
+        "sha256": "cf26aa57e55576f118aef3462c9e54e0d16d979ec8f51c744572f2762c5ce38c"
+      },
+      "system_contract": {
+        "path": "standards\\system_contract_v1.json",
+        "sha256": "1360a6c28b15ba73cdacf396702178ba6547387f2c14c635ed38fe307b3da17c"
+      },
+      "skill": {
+        "path": "skills\\mandoros-blind-phase1-statistical-integrity\\SKILL.md",
+        "sha256": "e69e3ddbc0af4ecc41fa4ca6d4a3465431275ad353258056175f13f7df8ffafc"
+      }
+    }
+  },
+  "issues": [
+    {
+      "code": "POLICY_NO_INDEPENDENT_SOURCE_INVENTORY",
+      "severity": "critical",
+      "blocking": true,
+      "message": "Scientific completeness cannot be validated without a PDF-first inventory independent of the Excel output."
+    }
+  ],
+  "blocking_issue_count": 1
+}

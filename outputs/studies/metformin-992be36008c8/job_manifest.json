@@ -1,0 +1,38 @@
+{
+  "study_id": "metformin",
+  "discovery_source": "data/manifest.json",
+  "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\metformin\\source.pdf",
+  "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\metformin\\mandros_input.xlsx",
+  "input_hashes": {
+    "pdf": "3d2fd2eeada56df3ba6f3d03fbdd8e1805b11b2c1491c322d79b4f0ce5b324b7",
+    "workbook": "94981596d5ce67fea0e65848ec3e655530bb86a2571fe1666bc48e215017263c"
+  },
+  "status": "success",
+  "started_utc": "2026-10-29T11:32:01+00:00",
+  "outputs": {
+    "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\assessment.json",
+    "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\assessment.html",
+    "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\mandros_input_corrected.xlsx"
+  },
+  "decision": "REJECT",
+  "score": 38,
+  "issue_count": 32,
+  "blocking_issue_count": 24,
+  "recognized_fixture": "metformin-dppos-dc11-1299",
+  "correction": {
+    "status": "generated",
+    "mode": "verified_prebuilt_copy",
+    "dataset": "metformin_workbook_dataset.json",
+    "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\mandros_input_corrected.xlsx",
+    "sha256": "4ba89b29db74681229fe1b14c801e614608685653e479368a7490b05772f3824",
+    "verification": {
+      "opened_successfully": true,
+      "required_sheets_present": true,
+      "formula_error_count": 0,
+      "sheet_count": 10
+    },
+    "builder_error": null
+  },
+  "input_preservation_verified": true,
+  "finished_utc": "2026-10-29T11:32:05+00:00"
+}

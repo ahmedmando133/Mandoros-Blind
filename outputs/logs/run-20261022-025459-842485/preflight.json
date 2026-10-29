@@ -1,0 +1,146 @@
+{
+  "timestamp_utc": "2026-10-21T22:54:59+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "pypdf": "6.10.0",
+    "openpyxl": "3.1.5",
+    "node_executable": "C:\\Users\\Rawda Mofed\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "node_version": "v24.19.0",
+    "artifact_tool_available": true
+  },
+  "knowledge_inventory": [
+    {
+      "name": "evidence_standards.json",
+      "sha256": "ec4ebc16bcdc88738a0505082be0160dcb2f051d7e07c9d8ee14130a42d36fcd",
+      "top_level_keys": [
+        "standards",
+        "version"
+      ]
+    },
+    {
+      "name": "metformin_table1_adherence.json",
+      "sha256": "c4a3b96513e640284cfb2b0ab59e49eee6c9a6005987e7770de57cc5c4812fe8",
+      "top_level_keys": [
+        "dataset_id",
+        "distribution_blocks",
+        "levels",
+        "placebo_combined",
+        "source_page",
+        "source_table",
+        "statistical_tests",
+        "visit_adherent_definition",
+        "weight_loss_blocks"
+      ]
+    },
+    {
+      "name": "metformin_truth_bundle.json",
+      "sha256": "87e4a907e6e8aa66edcf05f807dae61e5b4a3a74fcca6c2c73b3b134f30bceae",
+      "top_level_keys": [
+        "arms",
+        "baseline_status",
+        "eligibility",
+        "fixture_id",
+        "outcomes",
+        "source_sha256",
+        "study"
+      ]
+    },
+    {
+      "name": "metformin_workbook_dataset.json",
+      "sha256": "92deadb7fd0ba0734c7190ffbb71cfd98d347b6e9a1a842641b830abbba64670",
+      "top_level_keys": [
+        "arms",
+        "baseline_status",
+        "eligibility",
+        "fixture_id",
+        "outcomes",
+        "source_sha256",
+        "statistical_tests",
+        "study"
+      ]
+    },
+    {
+      "name": "orlistat_workbook_dataset.json",
+      "sha256": "924f6ba3b3a4c80d443b6f26656430cfe2a3b42d284c1b4b81399bde880c5a65",
+      "top_level_keys": [
+        "arms",
+        "baseline_pairs",
+        "dataset_id",
+        "document_inventory",
+        "eligibility",
+        "mandros_document",
+        "mandros_domain_scores",
+        "mandros_score",
+        "mandros_sha256",
+        "manual_layout_reference",
+        "manual_layout_sha256",
+        "master_study_rows",
+        "outcome_pairs",
+        "outcomes",
+        "output_filename",
+        "output_subdir",
+        "phase2_readiness",
+        "preview_prefix",
+        "qa_rows",
+        "source_conflicts",
+        "source_document",
+        "source_sha256",
+        "statistical_methods",
+        "statistical_tests",
+        "study",
+        "validation_log",
+        "version"
+      ]
+    },
+    {
+      "name": "phase1_policy_v1.json",
+      "sha256": "a176ba2c7e7465ffbbe4fccc953d305c1661712d218665c704746ecdf21e2a3e",
+      "top_level_keys": [
+        "authority_order",
+        "derived_from",
+        "policy_id",
+        "rules",
+        "version"
+      ]
+    },
+    {
+      "name": "rubric_v1.json",
+      "sha256": "fe88f25e0491224ef08cce3dbeadffe46b91b7e5d7577329303a572d73e8bf7e",
+      "top_level_keys": [
+        "decision_rule",
+        "domains",
+        "legacy_comparison_rubric",
+        "release_date",
+        "rubric_id",
+        "version"
+      ]
+    },
+    {
+      "name": "system_contract_v1.json",
+      "sha256": "9411b3a57dd3610d54c93cfdfb71daca488b838d0dc9f82bb40a9a014b508441",
+      "top_level_keys": [
+        "atomicity",
+        "contract_id",
+        "gates",
+        "master_sections",
+        "missingness",
+        "required_entities",
+        "safe_automation_rule",
+        "version"
+      ]
+    },
+    {
+      "name": "data\\manifest.json",
+      "sha256": "3299b6a1d8e671c14ca766561da29c05a4c06cad4f5e39edb2b456928a529a2d",
+      "top_level_keys": [
+        "created",
+        "files",
+        "manifest_version",
+        "privacy"
+      ]
+    }
+  ],
+  "model_artifacts": [],
+  "model_status": "no_trained_model_artifacts_present; current pipeline is deterministic and configuration-driven",
+  "data_manifest_loaded": true
+}

@@ -1,0 +1,288 @@
+{
+  "system": "Mandros Blind",
+  "pipeline_version": "0.5.0",
+  "started_from": "D:\\MANDROS-Blind\\MANDROS-Blind",
+  "data_directory": "D:\\MANDROS-Blind\\MANDROS-Blind\\data",
+  "output_directory": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs",
+  "stable_study_output_directory": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies",
+  "session_directory": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\logs\\run-20261029-143159-794691",
+  "force_reprocess": false,
+  "finished_utc": "2026-10-29T11:32:22+00:00",
+  "counts": {
+    "success": 1,
+    "partial_success": 4,
+    "failed": 2,
+    "skipped_unchanged": 0,
+    "skipped_or_reference": 8
+  },
+  "jobs": [
+    {
+      "study_id": "metformin",
+      "discovery_source": "data/manifest.json",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\metformin\\source.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\metformin\\mandros_input.xlsx",
+      "input_hashes": {
+        "pdf": "3d2fd2eeada56df3ba6f3d03fbdd8e1805b11b2c1491c322d79b4f0ce5b324b7",
+        "workbook": "94981596d5ce67fea0e65848ec3e655530bb86a2571fe1666bc48e215017263c"
+      },
+      "status": "success",
+      "started_utc": "2026-10-29T11:32:01+00:00",
+      "outputs": {
+        "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\assessment.json",
+        "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\assessment.html",
+        "corrected_workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\mandros_input_corrected.xlsx"
+      },
+      "decision": "REJECT",
+      "score": 38,
+      "issue_count": 32,
+      "blocking_issue_count": 24,
+      "recognized_fixture": "metformin-dppos-dc11-1299",
+      "correction": {
+        "status": "generated",
+        "mode": "verified_prebuilt_copy",
+        "dataset": "metformin_workbook_dataset.json",
+        "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\metformin-992be36008c8\\mandros_input_corrected.xlsx",
+        "sha256": "4ba89b29db74681229fe1b14c801e614608685653e479368a7490b05772f3824",
+        "verification": {
+          "opened_successfully": true,
+          "required_sheets_present": true,
+          "formula_error_count": 0,
+          "sheet_count": 10
+        },
+        "builder_error": null
+      },
+      "input_preservation_verified": true,
+      "finished_utc": "2026-10-29T11:32:05+00:00",
+      "registry_key": "metformin-992be36008c8"
+    },
+    {
+      "study_id": "orlistat-rct-2024",
+      "discovery_source": "data/manifest.json",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\orlistat\\source.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\orlistat\\mandros_input.xlsx",
+      "input_hashes": {
+        "pdf": "908c285c12b52e46a2bce1aea0f669a283006fecb12cd4a231d76ad57054f14e",
+        "workbook": "cce880771be33158bdec7748ea22705e9509c43b728f7cf7267fe3b1232ccc58"
+      },
+      "status": "partial_success",
+      "started_utc": "2026-10-29T11:32:06+00:00",
+      "outputs": {
+        "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\assessment.json",
+        "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\assessment.html"
+      },
+      "decision": "REJECT",
+      "score": 0,
+      "issue_count": 72,
+      "blocking_issue_count": 38,
+      "recognized_fixture": null,
+      "correction": {
+        "status": "failed",
+        "mode": "generic_pdf_mandros",
+        "dataset": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\orlistat-rct-2024-34aa622cbc7d\\generic_dataset.json",
+        "path": null,
+        "error": "Node.js or @oai/artifact-tool is unavailable; the normalized dataset was retained."
+      },
+      "input_preservation_verified": true,
+      "finished_utc": "2026-10-29T11:32:08+00:00",
+      "registry_key": "orlistat-rct-2024-34aa622cbc7d"
+    },
+    {
+      "study_id": "private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted",
+      "discovery_source": "recursive discovery",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide Obesity without DM.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\Semaglutide obesity trial\\semaglutide Obesity without DM_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "7f08887b3a922dc03f1acc5ed448818355faa91299efe476830e70764fd9ec79",
+        "workbook": "6b5939e65b4e21a26755bdb30fe6be29b399f386e7a8ed542d064f24094c59aa"
+      },
+      "status": "failed",
+      "started_utc": "2026-10-29T11:32:08+00:00",
+      "outputs": {
+        "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082\\assessment.json",
+        "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082\\assessment.html",
+        "error": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082\\error.json"
+      },
+      "decision": "REJECT",
+      "score": 0,
+      "issue_count": 166,
+      "blocking_issue_count": 98,
+      "recognized_fixture": "select-semaglutide-nejm-2023-v1",
+      "error": {
+        "type": "PermissionError",
+        "message": "[WinError 32] The process cannot access the file because it is being used by another process"
+      },
+      "finished_utc": "2026-10-29T11:32:12+00:00",
+      "registry_key": "private-semaglutide-obesity-trial-semaglutide-obesity-without-dm_extracted-1676c841b082"
+    },
+    {
+      "study_id": "private-dapagliflozin-trial-daba-dm_extracted",
+      "discovery_source": "recursive discovery",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\dabagliflozin RCT1.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\dapagliflozin trial\\daba DM_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "f9b654de9369fd59c77e932e3ba891878b5ccbf3f9be6f427b10eab904ec9333",
+        "workbook": "df3a610c8ba0fd3296c7894ae54cbc6c44ee633c126c753a8ed51c339a433061"
+      },
+      "status": "partial_success",
+      "started_utc": "2026-10-29T11:32:12+00:00",
+      "outputs": {
+        "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6\\assessment.json",
+        "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6\\assessment.html"
+      },
+      "decision": "REJECT",
+      "score": 0,
+      "issue_count": 509,
+      "blocking_issue_count": 437,
+      "recognized_fixture": "dapagliflozin-monotherapy-dc10-0612-v1",
+      "correction": {
+        "status": "failed",
+        "mode": null,
+        "dataset": "dapagliflozin_workbook_dataset.json",
+        "path": null,
+        "error": "prebuilt workbook hash does not match its manifest"
+      },
+      "input_preservation_verified": true,
+      "finished_utc": "2026-10-29T11:32:14+00:00",
+      "registry_key": "private-dapagliflozin-trial-daba-dm_extracted-bb3afe6702e6"
+    },
+    {
+      "study_id": "private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7",
+      "discovery_source": "recursive discovery",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin\\empa vs placebo 2doses (RCT4).pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin\\empa_vs_placebo_2doses__RCT4_extracted (7).xlsx",
+      "input_hashes": {
+        "pdf": "b81459f7aea35817500e11737bd890c81f0902a875122e700658aa70438b7cdb",
+        "workbook": "ea7342cfe38d83db9ff4d459ec369414b82f7643f38172f9064f3726ff1133df"
+      },
+      "status": "partial_success",
+      "started_utc": "2026-10-29T11:32:14+00:00",
+      "outputs": {
+        "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\assessment.json",
+        "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\assessment.html"
+      },
+      "decision": "REJECT",
+      "score": 0,
+      "issue_count": 78,
+      "blocking_issue_count": 10,
+      "recognized_fixture": null,
+      "correction": {
+        "status": "failed",
+        "mode": "generic_pdf_mandros",
+        "dataset": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae\\generic_dataset.json",
+        "path": null,
+        "error": "Node.js or @oai/artifact-tool is unavailable; the normalized dataset was retained."
+      },
+      "input_preservation_verified": true,
+      "finished_utc": "2026-10-29T11:32:17+00:00",
+      "registry_key": "private-empagliflozin-empa_vs_placebo_2doses__rct4_extracted-7-4ac9c0b7b1ae"
+    },
+    {
+      "study_id": "private-empagliflozin-2-empa-vs-placebo_extracted",
+      "discovery_source": "recursive discovery",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empagliflozin 2\\empa vs placebo_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "67a914ced6084afd7ab2ccb7d82bb07f682bbfa4f73ba11a59e99b7483413683",
+        "workbook": "3b7255939245d4c775f6310b0d63a301c286e75b2bebaa1889d22bfabd644ddf"
+      },
+      "status": "partial_success",
+      "started_utc": "2026-10-29T11:32:17+00:00",
+      "outputs": {
+        "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\assessment.json",
+        "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3\\assessment.html"
+      },
+      "decision": "REJECT",
+      "score": 18,
+      "issue_count": 61,
+      "blocking_issue_count": 53,
+      "recognized_fixture": "empagliflozin-basal-dom-2015-v1",
+      "correction": {
+        "status": "failed",
+        "mode": null,
+        "dataset": "empagliflozin_basal_workbook_dataset.json",
+        "path": null,
+        "error": "verified prebuilt workbook or its manifest is missing"
+      },
+      "input_preservation_verified": true,
+      "finished_utc": "2026-10-29T11:32:20+00:00",
+      "registry_key": "private-empagliflozin-2-empa-vs-placebo_extracted-45ee13aae0e3"
+    },
+    {
+      "study_id": "private-simvastatin-simvastatin_extracted",
+      "discovery_source": "recursive discovery",
+      "pdf": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\simvastatin\\simvastatin.pdf",
+      "workbook": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\simvastatin\\simvastatin_extracted.xlsx",
+      "input_hashes": {
+        "pdf": "09085b3d1e12f04804a5aa4168d7a41fff137d5245a318a44b0e973dd4dd0b3e",
+        "workbook": "ddaaec0774c831d111d59d30078f87431c5c0cc9594b0990cf199b6632347672"
+      },
+      "status": "failed",
+      "started_utc": "2026-10-29T11:32:20+00:00",
+      "outputs": {
+        "assessment_json": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b\\assessment.json",
+        "assessment_html": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b\\assessment.html",
+        "error": "D:\\MANDROS-Blind\\MANDROS-Blind\\outputs\\studies\\private-simvastatin-simvastatin_extracted-81abce43466b\\error.json"
+      },
+      "decision": "REJECT",
+      "score": 0,
+      "issue_count": 105,
+      "blocking_issue_count": 51,
+      "recognized_fixture": "simvastatin-phase1-statistical-integrity-v1",
+      "error": {
+        "type": "PermissionError",
+        "message": "[WinError 32] The process cannot access the file because it is being used by another process"
+      },
+      "finished_utc": "2026-10-29T11:32:22+00:00",
+      "registry_key": "private-simvastatin-simvastatin_extracted-81abce43466b"
+    }
+  ],
+  "unchanged": [],
+  "skipped": [
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\metformin\\manual_benchmark.xlsx",
+      "status": "reference",
+      "reason": "manifest role 'manual_benchmark' is not a study audit input"
+    },
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\references\\phase1_policy_source.json",
+      "status": "reference",
+      "reason": "manifest role 'phase1_policy_source' is not a study audit input"
+    },
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\references\\phase1_prompt_source.docx",
+      "status": "reference",
+      "reason": "manifest role 'phase1_prompt_source' is not a study audit input"
+    },
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\references\\PRISMA_2020_checklist.pdf",
+      "status": "reference",
+      "reason": "manifest role 'prisma_checklist' is not a study audit input"
+    },
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\references\\PRISMA_explanation.pdf",
+      "status": "reference",
+      "reason": "manifest role 'prisma_explanation' is not a study audit input"
+    },
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\references\\PRISMA_statement.pdf",
+      "status": "reference",
+      "reason": "manifest role 'prisma_statement' is not a study audit input"
+    },
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\orlistat\\manual_layout_reference.xlsx",
+      "status": "reference",
+      "reason": "manifest role 'manual_layout_reference' is not a study audit input"
+    },
+    {
+      "path": "D:\\MANDROS-Blind\\MANDROS-Blind\\data\\private\\empa plus met\\empa vs placebo add on metformin (RCT3).pdf",
+      "status": "skipped",
+      "reason": "no supported extraction workbook matched in the same folder"
+    }
+  ],
+  "limitations": [
+    "The current repository contains no trained model checkpoint; processing uses the implemented deterministic rules and versioned truth bundles.",
+    "For unseen studies, the generic pass creates a normalized corrected workbook from the supplied PDF and Mandros Excel, while retaining REQUIRES_REVIEW flags for records without exact page-level evidence.",
+    "The generic pass cannot prove that Mandros extracted every result printed in the PDF; it never invents omitted outcomes or unavailable supplementary results.",
+    "A structural validation pass is not equivalent to publication-ready scientific verification."
+  ]
+}
