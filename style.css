@@ -3,6 +3,8 @@
  * Exact visual identity, colors, typography & geometry of MANDOROS
  * ==================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
 :root {
   --bg-dark: #060609;
   --bg-card: #0c0d14;
@@ -40,7 +42,7 @@
   --text-muted: #8492A6;
   --text-dim: #546075;
 
-  --font-sans: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", "Inter", "Segoe UI", Roboto, sans-serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Plus Jakarta Sans", Roboto, sans-serif;
   --font-mono: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
 
   --radius-sm: 8px;
@@ -52,37 +54,79 @@
   --shadow-glow-cyan: 0 0 25px rgba(0, 245, 212, 0.35);
   --shadow-glow-pink: 0 0 25px rgba(255, 0, 127, 0.35);
 
-  --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-* {
-  box-sizing: border-box;
+*, *::before, *::after {
+  box-sizing: border-box !important;
 }
 
 body {
   margin: 0;
   background-color: var(--bg-dark);
-  background-image: 
-    radial-gradient(circle at 15% 10%, rgba(56, 189, 248, 0.08) 0%, transparent 45%),
-    radial-gradient(circle at 85% 15%, rgba(255, 0, 127, 0.08) 0%, transparent 45%),
-    radial-gradient(circle at 50% 60%, rgba(0, 245, 212, 0.04) 0%, transparent 60%);
-  background-attachment: fixed;
   color: var(--text-main);
   font-family: var(--font-sans);
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  position: relative;
 }
 
 /* ====================================================================
- * TOPBAR NAVIGATION
+ * MANDATORY GLOBAL MEDICAL AI BACKGROUND LAYER (VERBATIM MANDOROS)
+ * ==================================================================== */
+.mandoros-global-bg-container {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: none !important;
+  z-index: 0 !important;
+  overflow: hidden !important;
+}
+
+.mandoros-bg-image-layer {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #060609 url('assets/mandoros_medical_ai_bg.jpg') no-repeat center 25% fixed !important;
+  background-size: cover !important;
+  filter: brightness(0.70) contrast(1.12) saturate(1.18) !important;
+  transform: scale(1.02) !important;
+  z-index: 0 !important;
+  will-change: transform;
+}
+
+.mandoros-bg-vignette-layer {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: radial-gradient(circle at 50% 28%, transparent 0%, rgba(9, 9, 11, 0.20) 60%, rgba(6, 6, 9, 0.85) 100%),
+              linear-gradient(180deg, transparent 0%, transparent 30%, rgba(9, 9, 11, 0.35) 65%, rgba(6, 6, 9, 0.95) 100%) !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+main, .topbar, footer {
+  position: relative;
+  z-index: 10;
+}
+
+/* ====================================================================
+ * TOPBAR NAVIGATION (FLAGSHIP GLASSMORPHISM & ENLARGED BRAND EMBLEM)
  * ==================================================================== */
 .topbar {
-  height: 80px;
-  background: rgba(8, 9, 14, 0.85);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--border-subtle);
+  height: 88px;
+  background: linear-gradient(180deg, rgba(14, 15, 23, 0.75) 0%, rgba(6, 6, 9, 0.55) 100%);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,12 +134,12 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
 .brand {
   display: flex;
-  gap: 14px;
+  gap: 16px;
   align-items: center;
   color: var(--text-main);
   text-decoration: none;
@@ -104,27 +148,34 @@ body {
 }
 
 .brand-emblem {
-  width: 48px;
-  height: 48px;
+  width: 68px;
+  height: 68px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 12px;
-  background: rgba(18, 19, 29, 0.6);
-  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.09) 0%, rgba(18, 19, 29, 0.85) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.40);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55), 0 0 18px rgba(0, 245, 212, 0.25);
   transition: var(--transition);
+  flex-shrink: 0;
 }
 
 .brand:hover .brand-emblem {
-  border-color: var(--cyan-sky);
-  box-shadow: 0 0 16px var(--cyan-glow);
+  border-color: var(--cyan-neon);
+  box-shadow: 0 10px 30px rgba(0, 245, 212, 0.55), 0 0 25px rgba(244, 63, 94, 0.45);
+  transform: translateY(-2px) scale(1.04);
 }
 
 .brand-logo-img {
-  width: 42px;
-  height: 42px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
   display: block;
+  filter: drop-shadow(0 0 12px rgba(0, 245, 212, 0.6)) drop-shadow(0 0 18px rgba(244, 63, 94, 0.5));
 }
 
 .brand-info {
@@ -136,29 +187,86 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 19px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 900;
   letter-spacing: -0.3px;
+  color: #FAFAFA;
 }
 
 .tm-badge {
-  font-size: 9px;
+  font-size: 9.5px;
   font-weight: 800;
-  background: var(--cyan-subtle);
+  background: linear-gradient(135deg, rgba(0, 245, 212, 0.15) 0%, rgba(56, 189, 248, 0.2) 100%);
   color: var(--cyan-neon);
-  border: 1px solid rgba(0, 245, 212, 0.3);
-  padding: 2px 7px;
+  border: 1px solid rgba(0, 245, 212, 0.45);
+  padding: 3px 8px;
   border-radius: 999px;
   letter-spacing: 0.8px;
   text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 245, 212, 0.2);
 }
 
 .brand-info small {
-  font-weight: 600;
-  font-size: 10px;
-  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 9.5px;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
   color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* Center: Academic Attribution Topbar Pill (Rawda Mofed Gamal · AJMAN UNIVERSITY) */
+.mandoros-creator-top-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 16px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(0, 245, 212, 0.12) 100%);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 245, 212, 0.45);
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgba(0, 245, 212, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  transition: all 0.25s ease;
+  cursor: default;
+  text-decoration: none;
+}
+
+.mandoros-creator-top-pill:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(0, 245, 212, 0.25) 100%);
+  border-color: #00F5D4;
+  box-shadow: 0 0 24px rgba(0, 245, 212, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+.creator-pill-icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.creator-pill-name {
+  color: #FFFFFF;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.creator-pill-sep {
+  color: #475569;
+  font-weight: 600;
+}
+
+.creator-pill-inst {
+  color: #38BDF8;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 1040px) {
+  .mandoros-creator-top-pill {
+    display: none;
+  }
 }
 
 .header-actions {
@@ -171,10 +279,10 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--text-secondary);
   background: var(--green-subtle);
-  border: 1px solid rgba(16, 185, 129, 0.25);
+  border: 1px solid rgba(16, 185, 129, 0.3);
   padding: 6px 14px;
   border-radius: 999px;
   font-weight: 700;
@@ -198,7 +306,7 @@ body {
 
 .mandoros-nav-btn {
   background: linear-gradient(135deg, rgba(0, 245, 212, 0.15) 0%, rgba(255, 0, 127, 0.15) 100%);
-  border: 1px solid rgba(0, 245, 212, 0.3);
+  border: 1px solid rgba(0, 245, 212, 0.35);
   color: var(--text-main);
   padding: 8px 16px;
   border-radius: var(--radius-sm);
@@ -214,7 +322,7 @@ body {
 
 .mandoros-nav-btn:hover {
   border-color: var(--cyan-neon);
-  box-shadow: 0 0 18px var(--cyan-glow);
+  box-shadow: 0 0 20px var(--cyan-glow);
   transform: translateY(-1px);
 }
 
@@ -246,73 +354,446 @@ body {
 }
 
 /* ====================================================================
- * HERO SECTION
+ * FLAGSHIP ASYMMETRIC HERO SECTION (ADIDAS x APPLE x MANDOROS PARITY)
  * ==================================================================== */
 .hero {
-  max-width: 1200px;
+  max-width: 1380px;
   margin: 0 auto;
-  padding: 60px 24px 35px;
-  text-align: center;
+  padding: 38px 28px 24px 28px;
 }
 
-.eyebrow {
-  display: inline-block;
-  color: var(--cyan-neon);
-  font-size: 11px;
-  letter-spacing: 2.5px;
-  font-weight: 800;
-  text-transform: uppercase;
-  background: var(--cyan-subtle);
-  border: 1px solid rgba(0, 245, 212, 0.25);
-  padding: 6px 16px;
-  border-radius: 999px;
-  margin-bottom: 20px;
-  font-family: var(--font-mono);
+.header-hero-asymmetric {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 36px;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
-.hero h1 {
-  font-size: clamp(32px, 4.4vw, 54px);
-  line-height: 1.15;
-  margin: 0 0 18px;
-  font-weight: 900;
-  letter-spacing: -1px;
-  background: linear-gradient(180deg, #FFFFFF 20%, #CBD5E1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+@media (max-width: 980px) {
+  .header-hero-asymmetric {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }
 
-.hero p {
-  max-width: 820px;
-  margin: 0 auto;
-  color: var(--text-secondary);
-  font-size: 17px;
-  line-height: 1.7;
-}
-
-.standards-strip {
+.header-hero-left {
   display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 26px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
-.std-tag {
-  border: 1px solid var(--border-subtle);
-  background: rgba(255, 255, 255, 0.03);
+@media (max-width: 980px) {
+  .header-hero-left {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.hero-kicker-chip {
+  margin-bottom: 8px;
+  border-color: rgba(16, 185, 129, 0.35) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  color: #34D399 !important;
+}
+
+/* Geometric Titanium Main Title */
+.mandoros-hero-title {
+  font-family: var(--font-sans) !important;
+  font-size: clamp(2.4rem, 4.4vw, 3.8rem) !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.05 !important;
+  color: #FAFAFA !important;
+  background: linear-gradient(180deg, #FFFFFF 0%, #D4D4D8 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  filter: drop-shadow(0 4px 18px rgba(0, 0, 0, 0.95)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.85)) !important;
+  margin: 0 0 10px 0 !important;
+  text-transform: uppercase !important;
+}
+
+.mandoros-lambda {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 800;
+  color: #10B981 !important;
+  -webkit-text-fill-color: #10B981 !important;
+}
+
+.mandoros-subtitle {
+  font-family: var(--font-sans) !important;
+  font-size: 14.5px !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+  color: #F1F5F9 !important;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.95), 0 1px 4px rgba(0, 0, 0, 0.9) !important;
+  margin: 0 0 14px 0 !important;
+  max-width: 780px;
+}
+
+/* =========================================================================
+   ACADEMIC CREATOR & UNIVERSITY SIGNATURE (Rawda Mofed Gamal · AJMAN UNIVERSITY)
+   Glassmorphic Showcase with Glowing Luminescent Background & Specular Sheen
+   ========================================================================= */
+.mandoros-academic-creator-bar {
+  position: relative !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(18, 18, 24, 0.88) 45%, rgba(0, 245, 212, 0.08) 100%) !important;
+  backdrop-filter: blur(24px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.40) !important;
+  border-radius: 14px !important;
+  padding: 11px 16px !important;
+  margin: 4px 0 16px 0 !important;
+  width: 100% !important;
+  max-width: 620px !important;
+  box-sizing: border-box !important;
+  animation: mandoros-aurora-glow 4.5s ease-in-out infinite alternate !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  cursor: default !important;
+  overflow: hidden !important;
+  z-index: 2 !important;
+}
+
+.mandoros-academic-creator-bar:hover {
+  transform: translateY(-2px) !important;
+  border-color: rgba(0, 245, 212, 0.55) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.75), 0 0 35px rgba(0, 245, 212, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.45) !important;
+}
+
+.mandoros-academic-creator-bar::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: -120% !important;
+  width: 60% !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.18), transparent) !important;
+  transform: skewX(-25deg) !important;
+  animation: glassy-specular-sweep 7s ease-in-out infinite !important;
+  pointer-events: none !important;
+}
+
+@keyframes mandoros-aurora-glow {
+  0% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 245, 212, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    border-color: rgba(0, 245, 212, 0.35);
+  }
+  50% {
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.7), 0 0 32px rgba(99, 102, 241, 0.32), 0 0 16px rgba(56, 189, 248, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.38);
+    border-color: rgba(99, 102, 241, 0.52);
+  }
+  100% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 245, 212, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    border-color: rgba(0, 245, 212, 0.35);
+  }
+}
+
+@keyframes glassy-specular-sweep {
+  0%, 75% { left: -120%; opacity: 0; }
+  80% { opacity: 1; }
+  100% { left: 220%; opacity: 0; }
+}
+
+.academic-bar-inner {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  width: 100% !important;
+  flex-wrap: wrap !important;
+}
+
+.academic-crest-icon-box {
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 10px !important;
+  background: radial-gradient(circle, rgba(0, 245, 212, 0.22) 0%, rgba(99, 102, 241, 0.15) 100%) !important;
+  border: 1px solid rgba(0, 245, 212, 0.40) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  box-shadow: 0 0 14px rgba(0, 245, 212, 0.25) !important;
+}
+
+.academic-crest-symbol {
+  font-size: 19px !important;
+  line-height: 1 !important;
+}
+
+.academic-meta-col {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 3px !important;
+  flex: 1 1 240px !important;
+  min-width: 0 !important;
+}
+
+.academic-kicker {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  font-size: 9.5px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  color: #94A3B8 !important;
+  text-transform: uppercase !important;
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+.pulsing-cyan-dot {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 50% !important;
+  background: #00F5D4 !important;
+  box-shadow: 0 0 8px #00F5D4 !important;
+  display: inline-block !important;
+}
+
+.academic-name-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+}
+
+.academic-author-name {
+  font-size: 15.5px !important;
+  font-weight: 800 !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.01em !important;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.40) !important;
+}
+
+.academic-sep {
+  color: #475569 !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+
+.academic-institution-pill {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  padding: 3px 9px !important;
+  background: rgba(56, 189, 248, 0.12) !important;
+  border: 1px solid rgba(56, 189, 248, 0.35) !important;
+  border-radius: 6px !important;
+  color: #38BDF8 !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.18) !important;
+}
+
+.academic-honors-col {
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+.academic-honors-badge {
+  font-size: 9px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  background: rgba(16, 185, 129, 0.12) !important;
+  border: 1px solid rgba(16, 185, 129, 0.35) !important;
+  color: #34D399 !important;
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+.hero-description {
+  max-width: 720px;
   color: var(--text-secondary);
-  padding: 6px 14px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
-  font-family: var(--font-mono);
-  transition: var(--transition);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0 0 16px 0;
 }
 
-.std-tag:hover {
-  border-color: rgba(0, 245, 212, 0.4);
+.hero-description code {
   color: var(--cyan-neon);
-  background: var(--cyan-subtle);
+  background: rgba(0, 245, 212, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+}
+
+/* Clinical Rigor Specification Chips */
+.mandoros-meta-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.mandoros-chip {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.07) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  color: #E2E8F0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.mandoros-chip:hover {
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+/* Primary Tagline */
+.mandoros-tagline-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 6px 0 0 0;
+}
+
+.tagline-rule {
+  width: 32px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.mandoros-tagline {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em !important;
+  color: #38BDF8 !important;
+  white-space: nowrap;
+}
+
+/* Right Column: 3D Emblem Card & Live Metric Telemetry */
+.header-hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 14px;
+}
+
+.mandoros-emblem-card {
+  background: linear-gradient(180deg, rgba(18, 18, 24, 0.45) 0%, rgba(9, 9, 14, 0.25) 100%) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.35) !important;
+  border-radius: 20px;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(0, 245, 212, 0.15);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mandoros-emblem-card:hover {
+  transform: translateY(-3px) scale(1.01);
+  border-color: rgba(0, 245, 212, 0.45) !important;
+  box-shadow: 0 28px 65px rgba(0, 0, 0, 0.75), 0 0 45px rgba(0, 245, 212, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.emblem-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.hero-large-logo {
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 24px rgba(0, 245, 212, 0.65)) drop-shadow(0 0 40px rgba(244, 63, 94, 0.55));
+  transition: transform 0.3s ease;
+}
+
+.emblem-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+
+.emblem-brand-txt {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  color: #FAFAFA;
+}
+
+.emblem-sub-txt {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--cyan-sky);
+  letter-spacing: 0.06em;
+}
+
+/* High-Speed KPI Telemetry Counters */
+.mandoros-kpi-quick-strip {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.kpi-mini-card {
+  background: rgba(24, 24, 27, 0.55) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 10px;
+  padding: 10px 14px;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.kpi-mini-card:hover {
+  border-color: rgba(56, 189, 248, 0.4) !important;
+  background: rgba(30, 41, 59, 0.6) !important;
+}
+
+.kpi-mini-label {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.kpi-mini-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 17px;
+  font-weight: 800;
+  color: #FAFAFA;
+  margin-top: 2px;
 }
 
 /* ====================================================================
