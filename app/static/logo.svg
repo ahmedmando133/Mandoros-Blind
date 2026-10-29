@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mbTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="mbDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0A0F1D"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Container badge -->
+  <rect width="120" height="120" rx="26" fill="#17324D"/>
+  <rect x="2" y="2" width="116" height="116" rx="24" fill="none" stroke="#2A4365" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Geometric Letter M -->
+  <path d="M 26,92 L 26,32 L 44,32 L 60,60 L 76,32 L 94,32 L 94,92 L 78,92 L 78,54 L 66,74 L 54,74 L 42,54 L 42,92 Z" 
+        fill="url(#mbTeal)"/>
+
+  <!-- Sleek Black Sunglasses for the "M" -->
+  <g filter="url(#shadow)">
+    <!-- Sunglasses Frame Temples -->
+    <path d="M 16,50 L 26,48 M 94,48 L 104,50" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Left Lens Frame & Dark Tint -->
+    <rect x="23" y="42" width="32" height="20" rx="6" fill="url(#mbDark)" stroke="#38BDF8" stroke-width="1.5"/>
+    <!-- Right Lens Frame & Dark Tint -->
+    <rect x="65" y="42" width="32" height="20" rx="6" fill="url(#mbDark)" stroke="#38BDF8" stroke-width="1.5"/>
+    
+    <!-- Sleek Bridge -->
+    <path d="M 55,47 Q 60,44 65,47" stroke="#38BDF8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Glossy Glare Reflection on Left Lens -->
+    <path d="M 27,45 L 39,45 L 32,59 L 27,59 Z" fill="#FFFFFF" opacity="0.35"/>
+    <circle cx="50" cy="46" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+
+    <!-- Glossy Glare Reflection on Right Lens -->
+    <path d="M 69,45 L 81,45 L 74,59 L 69,59 Z" fill="#FFFFFF" opacity="0.35"/>
+    <circle cx="92" cy="46" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+</svg>

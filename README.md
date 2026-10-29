@@ -1,6 +1,14 @@
-# Mandros Blind
+# Mandroos Blind (MANDOROS BLIND™)
 
-Mandros Blind is a local, source-grounded audit and repair layer for RCT extraction workbooks. It compares a Mandros `.xlsx` file with the original PDF, rejects unsafe records, produces an issue-level audit trail, and creates a corrected normalized workbook for every supported PDF/XLSX study pair.
+<p align="center">
+  <img src="logo.svg" width="130" alt="Mandroos Blind Logo — Letter M wearing sleek black sunglasses" />
+  <br>
+  <strong>100% Clinical Trial Analysis & Side-by-Side Verification Engine</strong>
+  <br>
+  <a href="https://ahmedmando133.github.io/Mandoros-Blind/"><strong>🌐 Live Website: https://ahmedmando133.github.io/Mandoros-Blind/</strong></a>
+</p>
+
+Mandroos Blind (MANDOROS BLIND™) is a source-grounded audit, extraction, and automated repair platform for RCT workbooks and trial publications. It features a side-by-side interactive interface: **Module 1 (The Analysis)** alongside **Module 2 (100% Compliance Assessment)** with row-by-row condition checking, atomic range splitting, and live export to verified multi-sheet Excel (.xlsx), CSV, and full printable reports.
 
 ## What is implemented
 

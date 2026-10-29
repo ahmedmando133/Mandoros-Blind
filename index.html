@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mandroos Blind — 100% RCT Analysis & Side-by-Side Assessment Platform</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- SheetJS & PDF.js CDNs for 100% In-Browser Execution on GitHub Pages -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    if (typeof pdfjsLib !== 'undefined') {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    }
+  </script>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <a class="brand" href="#" title="MANDOROS BLIND™">
+      <div class="brand-emblem">
+        <!-- SVG Logo: Letter M wearing sleek black sunglasses -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="48" height="48">
+          <defs>
+            <linearGradient id="mbTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#14B8A6"/>
+              <stop offset="100%" stop-color="#0F766E"/>
+            </linearGradient>
+            <linearGradient id="mbDark" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#1E293B"/>
+              <stop offset="100%" stop-color="#0A0F1D"/>
+            </linearGradient>
+          </defs>
+          <rect width="120" height="120" rx="26" fill="#17324D"/>
+          <path d="M 26,92 L 26,32 L 44,32 L 60,60 L 76,32 L 94,32 L 94,92 L 78,92 L 78,54 L 66,74 L 54,74 L 42,54 L 42,92 Z" fill="url(#mbTeal)"/>
+          <g>
+            <path d="M 16,50 L 26,48 M 94,48 L 104,50" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+            <rect x="23" y="42" width="32" height="20" rx="6" fill="url(#mbDark)" stroke="#38BDF8" stroke-width="1.5"/>
+            <rect x="65" y="42" width="32" height="20" rx="6" fill="url(#mbDark)" stroke="#38BDF8" stroke-width="1.5"/>
+            <path d="M 55,47 Q 60,44 65,47" stroke="#38BDF8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <path d="M 27,45 L 39,45 L 32,59 L 27,59 Z" fill="#FFFFFF" opacity="0.4"/>
+            <circle cx="50" cy="46" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+            <path d="M 69,45 L 81,45 L 74,59 L 69,59 Z" fill="#FFFFFF" opacity="0.4"/>
+            <circle cx="92" cy="46" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="brand-info">
+        <div class="brand-title">
+          <span>Mandroos Blind</span>
+          <span class="tm-badge">MANDOROS BLIND™</span>
+        </div>
+        <small data-i18n="brand_sub">محرك التحقق ومراجعة التجارب السريرية 100%</small>
+      </div>
+    </a>
+
+    <div class="header-actions">
+      <div class="engine-status">
+        <span class="pulse-dot"></span>
+        <span>100% In-Browser Engine</span>
+      </div>
+      <button class="btn-lang" id="langToggleBtn">
+        <span>English</span>
+      </button>
+      <a class="ghost-btn" href="https://github.com/ahmedmando133/Mandoros-Blind" target="_blank" rel="noopener">
+        <span>GitHub</span> ↗
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="eyebrow" data-i18n="hero_eyebrow">تحقق ذري قائم على المصدر · فحص سطر بسطر · عدم إغفال تام</div>
+      <h1 data-i18n="hero_title">تحليل ومراجعة بيانات التجارب السريرية جنبًا إلى جنب بنسبة 100%</h1>
+      <p data-i18n="hero_desc">
+        ارفع ملف الورقة الأصلية (PDF) أو ملف استخراج ماندوروس (XLSX/CSV) واستعرض استخراج البيانات جنباً إلى جنب مع التدقيق العلمي، فصل المعاملات، تفكيك المجالات، وتصحيح الأخطاء لحظياً.
+      </p>
+      <div class="standards-strip">
+        <span class="std-tag">CONSORT 2025</span>
+        <span class="std-tag">ICH E9 / E9(R1)</span>
+        <span class="std-tag">Cochrane RoB 2</span>
+        <span class="std-tag">PRISMA 2020</span>
+        <span class="std-tag">Zero-Omission Inventory</span>
+        <span class="std-tag">Atomic Tuple Gate</span>
+      </div>
+    </section>
+
+    <!-- BENCHMARKS QUICK-LAUNCH -->
+    <section class="benchmark-section">
+      <div class="benchmark-card">
+        <div class="benchmark-header">
+          <h3><span>🧪</span> <span data-i18n="benchmarks_title">تجارب سريرية مرجعية جاهزة للفحص الفوري:</span></h3>
+          <span>اختر أي دراسة لتشغيل التحليل والتقييم 100% فورياً</span>
+        </div>
+        <div class="benchmark-chips">
+          <button class="chip-btn active" data-benchmark="metformin">
+            <span>💊</span> Metformin DPP/DPPOS (Diabetes Care)
+          </button>
+          <button class="chip-btn" data-benchmark="orlistat">
+            <span>🥗</span> Orlistat RCT 2024 (Gout & Efficacy)
+          </button>
+          <button class="chip-btn" data-benchmark="semaglutide">
+            <span>💉</span> SELECT Semaglutide (NEJM 2023)
+          </button>
+          <button class="chip-btn" data-benchmark="simvastatin">
+            <span>🫁</span> Simvastatin (Pneumonia Trial)
+          </button>
+          <button class="chip-btn" data-benchmark="dapagliflozin">
+            <span>🩺</span> Dapagliflozin Monotherapy (Ferrannini)
+          </button>
+          <button class="chip-btn" data-benchmark="empagliflozin">
+            <span>🧬</span> Empagliflozin Add-on (DOM 2015)
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKSPACE: UPLOAD CARDS -->
+    <section class="workspace">
+      <!-- FORM / UPLOAD CARD -->
+      <div class="card">
+        <div class="step-indicator"><b>01</b><span>Upload Inputs</span></div>
+        <h2 data-i18n="upload_h2">ابدأ فحص واستخراج الدراسة</h2>
+
+        <div class="dropzone-group">
+          <!-- DROP PDF -->
+          <div class="dropzone" id="pdfDrop">
+            <div class="drop-icon pdf">PDF</div>
+            <strong data-i18n="drop_pdf_title">ملف الورقة الأصلية (PDF)</strong>
+            <small data-i18n="drop_pdf_desc">PDF كامل للمطابقة النصية والتحقق</small>
+            <input type="file" id="pdfInput" accept="application/pdf">
+            <div class="file-status hidden"></div>
+          </div>
+
+          <!-- DROP EXCEL/CSV -->
+          <div class="dropzone" id="xlsxDrop">
+            <div class="drop-icon excel">XLSX</div>
+            <strong data-i18n="drop_xlsx_title">ملف استخراج ماندوروس (XLSX / CSV)</strong>
+            <small data-i18n="drop_xlsx_desc">الإكسيل المراد تدقيقه وتصحيحه سطر بسطر</small>
+            <input type="file" id="xlsxInput" accept=".xlsx, .xls, .csv">
+            <div class="file-status hidden"></div>
+          </div>
+        </div>
+
+        <button class="btn-primary" id="runAuditBtn">
+          <span data-i18n="run_btn">تشغيل التحليل والتقييم المتزامن (100% Assessment) ⚡</span>
+        </button>
+        <p class="privacy-note" data-i18n="privacy_note">
+          لا يتم إرسال ملفاتك لأي خادم خارجي؛ المحرك يعمل كلياً داخل متصفحك.
+        </p>
+      </div>
+
+      <!-- CONTRACT & GUARDRAILS CARD -->
+      <div class="card">
+        <div class="step-indicator"><b>02</b><span>100% Audit Protocol</span></div>
+        <h2 data-i18n="contract_h2">شروط وميثاق التدقيق 100%</h2>
+        <ul class="contract-list">
+          <li><b>الفصل الذري</b><span>Range Min/Max · Mean/SD · Operator/Val</span></li>
+          <li><b>حظر علامات النقص</b><span>Strictly Null (No NA, N/A, dashes)</span></li>
+          <li><b>أحجام العينات</b><span>Preserve n_randomized vs analyzed N</span></li>
+          <li><b>قيم P والاختبارات</b><span>Single P-Value · Arm Comparison ID</span></li>
+          <li><b>ربط المصدر والتوبل</b><span>Source-Bound Identity Tuple Verification</span></li>
+        </ul>
+        <div class="guardrail-box">
+          <strong>قاعدة الأمان العلمي للمدقق "Mandroos Blind"</strong>
+          <p>
+            حرف الـ M يرتدي النظارة السوداء لأن التقييم أعمى ومحايد 100%. لن يتم تمرير أي استخراج غير مطابق لمعايير CONSORT و ICH E9 أو يحتوي أرقاماً مركبة أو قيماً غير موثقة بالمصدر.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE RESULTS & SIDE-BY-SIDE CONTAINER -->
+    <section class="results-section" id="resultsSection">
+      <!-- HEADER BAR -->
+      <div class="results-header-bar">
+        <div class="results-title-group">
+          <span class="kicker">MANDROOS BLIND™ AUDIT REPORT</span>
+          <h2 id="studyTitleDisplay">Long-Term Safety, Tolerability, and Weight Loss Associated With Metformin</h2>
+          <div id="studySubDisplay" style="color: #94A3B8; font-size: 14px; margin-top: 4px;">
+            Diabetes Care (2012) · N = 2155
+          </div>
+        </div>
+
+        <div class="score-badge-group">
+          <div class="score-comparison">
+            <span class="pre-score" id="preScoreText">الاستخراج الأولي ماندوروس: 38/100 (REJECT)</span>
+            <span class="post-score" id="postScoreText">بعد التدقيق الذري: 100/100 (100% VERIFIED)</span>
+          </div>
+
+          <div class="score-box">
+            <strong>100</strong><small>/100</small>
+          </div>
+
+          <div class="decision-badge verified">
+            <span>🛡️</span> 100% VERIFIED
+          </div>
+        </div>
+      </div>
+
+      <!-- METRICS GRID -->
+      <div class="metrics-grid">
+        <div class="metric-item">
+          <b id="metricTotalRecords">146</b>
+          <span data-i18n="metric_records">سجل مفحوص</span>
+        </div>
+        <div class="metric-item">
+          <b id="metricRepaired">28</b>
+          <span data-i18n="metric_repaired">خطأ تم تصحيحه ذاتياً</span>
+        </div>
+        <div class="metric-item">
+          <b id="metricBlocking">22</b>
+          <span data-i18n="metric_blocking">خطأ مانع تم وقفه</span>
+        </div>
+        <div class="metric-item">
+          <b id="metricRate" style="color: #4ADE80;">100%</b>
+          <span data-i18n="metric_rate">نسبة الامتثال النهائي</span>
+        </div>
+      </div>
+
+      <!-- TOOLBAR: VIEW TOGGLES & DOWNLOADS -->
+      <div class="export-toolbar">
+        <div class="view-controls">
+          <button class="btn-view-toggle active" id="viewSplitBtn" data-i18n="view_split">
+            عرض متجاور (Side-by-Side)
+          </button>
+          <button class="btn-view-toggle" id="viewUnifiedBtn" data-i18n="view_unified">
+            عرض جدولي موحد
+          </button>
+        </div>
+
+        <div class="download-buttons">
+          <button class="btn-dl excel" id="btnDlExcel">
+            <span>📥</span> <span data-i18n="dl_excel">تنزيل Excel المصحح الشامل</span>
+          </button>
+          <button class="btn-dl csv" id="btnDlCsv">
+            <span>📄</span> <span data-i18n="dl_csv">تنزيل CSV</span>
+          </button>
+          <button class="btn-dl report" id="btnDlReport">
+            <span>🖨️</span> <span data-i18n="dl_report">طباعة التقرير الكامل</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- SIDE-BY-SIDE MODULE CONTAINER -->
+      <div class="modules-container">
+        <!-- TABS -->
+        <div class="domain-tabs" id="domainTabs"></div>
+
+        <!-- SEARCH BOX -->
+        <div class="search-box-row">
+          <input type="text" class="search-input" id="searchInput" placeholder="ابحث في المتغيرات، الأدوية، الأذرع، أو قيم P…" data-i18n-placeholder="search_placeholder">
+        </div>
+
+        <!-- DYNAMIC VIEW AREA -->
+        <div id="modulesViewArea"></div>
+
+        <!-- MASTER REQUIREMENT MATRIX (14 RULES CHECKLIST) -->
+        <div class="master-matrix-card">
+          <h3 style="margin: 0 0 8px; font-size: 18px; font-weight: 800; display: flex; align-items: center; gap: 8px;">
+            <span>📑</span> <span data-i18n="master_matrix_title">مصفوفة الشروط والقواعد الكلية (Master Requirement Matrix - 100% Pass)</span>
+          </h3>
+          <p style="color: var(--gray-muted); font-size: 13px; margin-top: 0;">
+            قائمة الشروط والمعايير الإلزامية الـ 14 المنصوص عليها في ميثاق المشروع والمعايير الدولية:
+          </p>
+          <div class="unified-table-wrap">
+            <table class="matrix-table">
+              <thead>
+                <tr>
+                  <th style="width: 70px;">Code</th>
+                  <th>Requirement & Scientific Authority</th>
+                  <th>Scope & Description</th>
+                  <th>Audit Status</th>
+                  <th>Audited Rows</th>
+                </tr>
+              </thead>
+              <tbody id="masterMatrixBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="28" height="28">
+        <rect width="120" height="120" rx="26" fill="#17324D"/>
+        <path d="M 26,92 L 26,32 L 44,32 L 60,60 L 76,32 L 94,32 L 94,92 L 78,92 L 78,54 L 66,74 L 54,74 L 42,54 L 42,92 Z" fill="#0F766E"/>
+        <rect x="23" y="42" width="32" height="20" rx="6" fill="#0A0F1D" stroke="#38BDF8" stroke-width="1.5"/>
+        <rect x="65" y="42" width="32" height="20" rx="6" fill="#0A0F1D" stroke="#38BDF8" stroke-width="1.5"/>
+      </svg>
+      <span>Mandroos Blind (MANDOROS BLIND™) v1.0</span>
+    </div>
+    <span>CONSORT 2025 · ICH E9(R1) · Cochrane RoB 2 · PRISMA 2020 Compliant</span>
+    <span>GitHub Pages Automated Deployment</span>
+  </footer>
+
+  <!-- SCRIPT BUNDLES -->
+  <script src="benchmarks.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
