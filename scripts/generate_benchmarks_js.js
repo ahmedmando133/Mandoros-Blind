@@ -348,7 +348,7 @@ for (const spec of studySpecs) {
   benchmarks[spec.key] = {
     key: spec.key,
     trial_name: spec.trial_name,
-    export_filename: `Mandroos_Blind_${spec.trial_name}.xlsx`,
+    export_filename: `Mandoros_Blind_${spec.trial_name}.xlsx`,
     pdf_hashes: spec.pdf_hashes,
     workbook_hashes: spec.workbook_hashes,
     aliases: spec.aliases,
@@ -369,7 +369,7 @@ for (const spec of studySpecs) {
   };
 }
 
-const jsContent = '/* Auto-generated Mandroos Blind Full 14-Sheet Truth Bundles */\nwindow.MB_BENCHMARKS = ' + JSON.stringify(benchmarks) + ';\n';
+const jsContent = '/* Auto-generated MANDOROS BLIND Full 14-Sheet Truth Bundles */\nwindow.MB_BENCHMARKS = ' + JSON.stringify(benchmarks) + ';\n';
 fs.writeFileSync(path.join(root, 'benchmarks.js'), jsContent, 'utf8');
 fs.writeFileSync(path.join(root, 'app/static/benchmarks.js'), jsContent, 'utf8');
 console.log('benchmarks.js generated successfully! Studies:', Object.keys(benchmarks).join(', '), 'Size:', (jsContent.length / 1024).toFixed(1), 'KB');

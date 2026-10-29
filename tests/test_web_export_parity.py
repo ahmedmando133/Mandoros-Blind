@@ -63,13 +63,13 @@ class WebExportParityTests(unittest.TestCase):
         ]
         self.assertIn("metformin", self.generated)
         self.assertEqual(expected_14_sheets, self.generated["metformin"]["sheets"])
-        self.assertEqual("Mandroos_Blind_Metformin_DPPOS.xlsx", self.generated["metformin"]["export_filename"])
+        self.assertEqual("Mandoros_Blind_Metformin_DPPOS.xlsx", self.generated["metformin"]["export_filename"])
 
         for key, ref_path in REFERENCE_14_SHEET_WORKBOOKS.items():
             self.assertIn(key, self.generated, f"Missing study {key} in benchmarks.js")
             gen = self.generated[key]
             self.assertEqual(expected_14_sheets, gen["sheets"])
-            self.assertTrue(gen["export_filename"].startswith("Mandroos_Blind_"))
+            self.assertTrue(gen["export_filename"].startswith("Mandoros_Blind_"))
             self.assertTrue(gen["export_filename"].endswith(".xlsx"))
 
             wb = load_workbook(ref_path, data_only=False, read_only=True)

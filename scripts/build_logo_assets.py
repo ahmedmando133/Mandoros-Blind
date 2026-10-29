@@ -11,15 +11,15 @@ def generate_logo_assets():
     with open(transparent_png_path, 'rb') as f:
         png_b64 = base64.b64encode(f.read()).decode('utf-8')
 
-    logo_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" width="100%" height="100%" class="mandroos-master-logo-svg">
+    logo_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" width="100%" height="100%" class="mandoros-master-logo-svg">
   <defs>
     <!-- CSS Animations for Floating, Orbital Pulse, and Glint Sweep -->
     <style>
-      @keyframes mandroos-float-motion {{
+      @keyframes mandoros-float-motion {{
         0%, 100% {{ transform: translateY(0px) rotate(0deg); }}
         50% {{ transform: translateY(-16px) rotate(0.7deg); }}
       }}
-      @keyframes mandroos-orbital-pulse {{
+      @keyframes mandoros-orbital-pulse {{
         0%, 100% {{
           filter: drop-shadow(0 0 24px rgba(0, 245, 212, 0.55)) drop-shadow(0 0 45px rgba(244, 63, 94, 0.45));
         }}
@@ -33,12 +33,12 @@ def generate_logo_assets():
         42% {{ transform: translateX(650px) skewX(-25deg); opacity: 0.95; }}
         55%, 100% {{ transform: translateX(950px) skewX(-25deg); opacity: 0; }}
       }}
-      .mandroos-animated-emblem {{
+      .mandoros-animated-emblem {{
         transform-origin: center center;
-        animation: mandroos-float-motion 5s ease-in-out infinite, mandroos-orbital-pulse 4.2s ease-in-out infinite;
+        animation: mandoros-float-motion 5s ease-in-out infinite, mandoros-orbital-pulse 4.2s ease-in-out infinite;
         will-change: transform, filter;
       }}
-      .mandroos-animated-glint {{
+      .mandoros-animated-glint {{
         animation: glint-sheen-sweep 4.5s ease-in-out infinite;
         transform-origin: center center;
       }}
@@ -91,7 +91,7 @@ def generate_logo_assets():
     </linearGradient>
   </defs>
 
-  <g class="mandroos-animated-emblem">
+  <g class="mandoros-animated-emblem">
     <!-- BASE MANDOROS LOGO: 100% UNTOUCHED, IDENTICAL PROPORTIONS, COLORS & GEOMETRY -->
     <g id="mandoros-base-logo">
       <image href="data:image/png;base64,{png_b64}" x="0" y="0" width="1600" height="1600" preserveAspectRatio="xMidYMid meet"/>
@@ -139,7 +139,7 @@ def generate_logo_assets():
 
       <!-- ANIMATED SPECULAR GLINT SHEEN SWEEPING ACROSS BOTH LENSES -->
       <g clip-path="url(#sunglassesLensClip)">
-        <rect class="mandroos-animated-glint" x="300" y="360" width="1000" height="340" 
+        <rect class="mandoros-animated-glint" x="300" y="360" width="1000" height="340" 
               fill="url(#glintGradient)" style="mix-blend-mode: screen;"/>
       </g>
 

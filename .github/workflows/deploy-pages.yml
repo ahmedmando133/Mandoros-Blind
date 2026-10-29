@@ -1,4 +1,4 @@
-name: Deploy Mandroos Blind to GitHub Pages
+name: Deploy MANDOROS BLIND to GitHub Pages
 
 on:
   push:
